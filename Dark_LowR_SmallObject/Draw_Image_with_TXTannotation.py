@@ -2,9 +2,9 @@ import cv2
 import os
 
 # 设置路径
-image_dir = r"D:\Jiao\dataset\Jack_generate_cat\DarkResizeYolostyle\images\train2017_enhanced"  # 处理后的图像文件夹
-label_dir = r"D:\Jiao\dataset\Jack_generate_cat\DarkResizeYolostyle\labels\train2017"  # 处理后的标注文件夹
-output_dir = r"D:\Jiao\dataset\Jack_generate_cat\DarkResizeYolostyle\visualized_labels"  # 保存可视化结果
+image_dir = r"D:\Jiao\dataset\Jack_generate_cat\lowQulityDarkRepartition\images\train2017"  # 处理后的图像文件夹
+label_dir = r"D:\Jiao\dataset\Jack_generate_cat\lowQulityDarkRepartition\annotations\train2017"  # 处理后的标注文件夹
+output_dir = r"D:\Jiao\dataset\Jack_generate_cat\lowQulityDarkRepartition\images\visualized_labels"  # 保存可视化结果
 
 # 确保输出目录存在
 os.makedirs(output_dir, exist_ok=True)

@@ -1,12 +1,20 @@
 import os
 import cv2
+import numpy as np
 import xml.etree.ElementTree as ET
 
 # 输入 & 输出路径
-image_dir = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\dark\val2017Dark"  # 原始暗光图像路径
-xml_dir = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\dark\val2017Dark_annotations"  # 对应的 XML 标注文件路径
-output_image_dir = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\dark\val2017Dark_resize"  # 目标存储缩放后图像的文件夹
-output_xml_dir = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\dark\val2017Dark_annotations_resize"  # 目标存储修改后 XML 的文件夹
+# image_dir = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\dark\val2017Dark"  # 原始暗光图像路径
+# xml_dir = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\dark\val2017Dark_annotations"  # 对应的 XML 标注文件路径
+# output_image_dir = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\dark\val2017Dark_resize"  # 目标存储缩放后图像的文件夹
+# output_xml_dir = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\dark\val2017Dark_annotations_resize"  # 目标存储修改后 XML 的文件夹
+
+
+image_dir = r"D:\Jiao\dataset\Jack_generate_cat\COCO\lowQulityDark\val2017Dark"  # 原始暗光图像路径
+xml_dir = r"D:\Jiao\dataset\Jack_generate_cat\COCO\lowQulityDark\val2017Dark_annotations"  # 对应的 XML 标注文件路径
+output_image_dir = r"D:\Jiao\dataset\Jack_generate_cat\COCO\lowQulityDark\val2017Dark_resize"  # 目标存储缩放后图像的文件夹
+output_xml_dir = r"D:\Jiao\dataset\Jack_generate_cat\COCO\lowQulityDark\val2017Dark_resize_annotations"  # 目标存储修改后 XML 的文件夹
+
 os.makedirs(output_image_dir, exist_ok=True)
 os.makedirs(output_xml_dir, exist_ok=True)
 
@@ -14,6 +22,33 @@ os.makedirs(output_xml_dir, exist_ok=True)
 MAX_SIZE = 300  # 限制最大宽或高不超过 300
 
 
+# 添加高斯噪声
+def add_weak_gaussian_noise(image, mean=0, stddev=3, prob=0.3):
+    """减少高斯噪声影响，确保更真实"""
+    # if np.random.rand() > prob:
+    #     return image  # 以一定概率不加噪声
+
+    noise = np.random.normal(mean, stddev, image.shape).astype(np.float32)  # 用 float 计算
+    noisy_image = image.astype(np.float32) + noise  # 避免 uint8 截断
+
+    # 确保 noisy_image 是 numpy.ndarray 类型
+    noisy_image = np.array(noisy_image, dtype=np.float32)
+
+    # 限制到 0-255 并转换为 uint8
+    noisy_image = np.clip(noisy_image, 0, 255).astype(np.uint8)
+
+    return noisy_image
+
+
+
+# 添加泊松噪声
+def add_poisson_noise(image):
+    """给图片添加泊松噪声"""
+    vals = len(np.unique(image))
+    vals = 2 ** np.ceil(np.log2(vals))  # 确保像素值分布
+    noisy_image = np.random.poisson(image * vals) / float(vals)
+
+#
 def resize_image_and_update_xml(image_path, xml_path, output_img_path, output_xml_path):
     # 读取 XML 标注文件
     tree = ET.parse(xml_path)
@@ -31,8 +66,14 @@ def resize_image_and_update_xml(image_path, xml_path, output_img_path, output_xm
 
     # 读取并缩放图像
     image = cv2.imread(image_path)
-    resized_image = cv2.resize(image, (new_width, new_height), interpolation=cv2.INTER_AREA)
-    cv2.imwrite(output_img_path, resized_image)
+    #resized_image = cv2.resize(image, (new_width, new_height), interpolation=cv2.INTER_AREA)#这样压缩出阿里的图像质量较高
+    resized_image = cv2.resize(image, (new_width, new_height), interpolation=cv2.INTER_NEAREST)#这样压缩出来的图像质量较低
+
+    # 添加噪声（可以选择高斯噪声或泊松噪声）
+    noisy_image = add_weak_gaussian_noise(resized_image, mean=0, stddev=10)  # 高斯噪声
+    # noisy_image = add_poisson_noise(resized_image)  # 泊松噪声（替换上面这行）
+
+    cv2.imwrite(output_img_path, noisy_image)
 
     # 更新 XML 文件中的尺寸信息
     size_tag.find("width").text = str(new_width)

@@ -4,8 +4,8 @@ import xml.etree.ElementTree as ET
 import matplotlib.pyplot as plt
 
 # 处理后的图片 & XML 目录
-image_dir = r"D:\Jiao\dataset\Jack_generate_cat\DarkResizeYoloSLR\images\train2017"  # 替换为你的缩放后图像路径
-xml_dir = r"D:\Jiao\dataset\Jack_generate_cat\DarkResizeYoloSLR\labels\train2017"  # 替换为你的修改后 XML 标注路径,不能是txt
+image_dir = r"D:\Jiao\dataset\Jack_generate_cat\lowQulityDark\images\val2017Dark_resize"  # 替换为你的缩放后图像路径
+xml_dir = r"D:\Jiao\dataset\Jack_generate_cat\lowQulityDark\annotations\val2017Dark_resize_annotations"  # 替换为你的修改后 XML 标注路径,不能是txt
 
 def visualize_image_with_bbox(image_path, xml_path):
     # 读取图像
@@ -34,7 +34,7 @@ def visualize_image_with_bbox(image_path, xml_path):
     plt.show()
 
 # 随机选择一个文件进行可视化
-sample_image = os.listdir(image_dir)[1]  # 选取第一个图像
+sample_image = os.listdir(image_dir)[50]  # 选取第一个图像
 sample_xml = sample_image.replace(".jpg", ".xml").replace(".png", ".xml").replace(".jpeg", ".xml")
 
 

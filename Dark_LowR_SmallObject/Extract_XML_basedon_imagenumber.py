@@ -2,9 +2,9 @@ import os
 import shutil
 
 # 原始数据文件夹路径
-image_folder = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\dark\val2017Dark"
-annotation_folder = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\annotations\val2017"
-destination_folder = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\dark\val2017Dark_annotations"
+image_folder = r"D:\Jiao\dataset\Jack_generate_cat\COCO\lowQulityDark\train2017Dark"
+annotation_folder = r"D:\Jiao\dataset\Jack_generate_cat\COCO\lowQulityDark\train2017xml"
+destination_folder = r"D:\Jiao\dataset\Jack_generate_cat\COCO\lowQulityDark\train2017Dark_annotations"
 
 # 创建目标文件夹（如果不存在）
 os.makedirs(destination_folder, exist_ok=True)

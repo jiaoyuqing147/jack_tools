@@ -11,8 +11,10 @@ import numpy as np
 import shutil
 
 # 设置输入和输出路径
-image_dir = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\train2017"  # 原始数据集路径
-output_dir = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\dark\train2017Dark"  # 低光照增强后的数据集路径
+#image_dir = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\train2017"  # 原始数据集路径
+image_dir = r"D:\Jiao\dataset\Jack_generate_cat\COCO\val2017"  # 原始数据集路径
+#output_dir = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\dark\train2017Dark"  # 低光照增强后的数据集路径
+output_dir = r"D:\Jiao\dataset\Jack_generate_cat\COCO\val2017Dark"  # 低光照处理后的数据集路径
 os.makedirs(output_dir, exist_ok=True)
 
 # 亮度阈值
