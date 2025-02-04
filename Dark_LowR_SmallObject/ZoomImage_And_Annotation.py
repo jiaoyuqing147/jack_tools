@@ -10,10 +10,10 @@ import xml.etree.ElementTree as ET
 # output_xml_dir = r"F:\jack_dataset\cocoalldata\Jack_generate_cat\COCO\dark\val2017Dark_annotations_resize"  # 目标存储修改后 XML 的文件夹
 
 
-image_dir = r"D:\Jiao\dataset\Jack_generate_cat\COCO\lowQulityDark\val2017Dark"  # 原始暗光图像路径
-xml_dir = r"D:\Jiao\dataset\Jack_generate_cat\COCO\lowQulityDark\val2017Dark_annotations"  # 对应的 XML 标注文件路径
-output_image_dir = r"D:\Jiao\dataset\Jack_generate_cat\COCO\lowQulityDark\val2017Dark_resize"  # 目标存储缩放后图像的文件夹
-output_xml_dir = r"D:\Jiao\dataset\Jack_generate_cat\COCO\lowQulityDark\val2017Dark_resize_annotations"  # 目标存储修改后 XML 的文件夹
+image_dir = r"D:\Jiao\dataset\CatOnlyCOCOVOC\Dark\images"  # 原始暗光图像路径
+xml_dir = r"D:\Jiao\dataset\CatOnlyCOCOVOC\Dark\annotations"  # 对应的 XML 标注文件路径
+output_image_dir = r"D:\Jiao\dataset\CatOnlyCOCOVOC\DarkResize300\images"  # 目标存储缩放后图像的文件夹
+output_xml_dir = r"D:\Jiao\dataset\CatOnlyCOCOVOC\DarkResize300\annotations"  # 目标存储修改后 XML 的文件夹
 
 os.makedirs(output_image_dir, exist_ok=True)
 os.makedirs(output_xml_dir, exist_ok=True)
@@ -67,13 +67,14 @@ def resize_image_and_update_xml(image_path, xml_path, output_img_path, output_xm
     # 读取并缩放图像
     image = cv2.imread(image_path)
     #resized_image = cv2.resize(image, (new_width, new_height), interpolation=cv2.INTER_AREA)#这样压缩出阿里的图像质量较高
-    resized_image = cv2.resize(image, (new_width, new_height), interpolation=cv2.INTER_NEAREST)#这样压缩出来的图像质量较低
+    #resized_image = cv2.resize(image, (new_width, new_height), interpolation=cv2.INTER_NEAREST)#这样压缩出来的图像质量较低
+    resized_image = cv2.resize(image, (new_width, new_height), interpolation=cv2.INTER_CUBIC)#双三次插值 (Bicubic Interpolation)
 
-    # 添加噪声（可以选择高斯噪声或泊松噪声）
-    noisy_image = add_weak_gaussian_noise(resized_image, mean=0, stddev=10)  # 高斯噪声
+    # 添加噪声（可以选择高斯噪声或泊松噪声）不加了，感觉加了噪声效果很差
+    # noisy_image = add_weak_gaussian_noise(resized_image, mean=0, stddev=10)  # 高斯噪声
     # noisy_image = add_poisson_noise(resized_image)  # 泊松噪声（替换上面这行）
 
-    cv2.imwrite(output_img_path, noisy_image)
+    cv2.imwrite(output_img_path, resized_image)
 
     # 更新 XML 文件中的尺寸信息
     size_tag.find("width").text = str(new_width)
