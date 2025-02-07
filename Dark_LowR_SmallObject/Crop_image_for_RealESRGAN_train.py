@@ -1,8 +1,8 @@
 import os
 import cv2
 
-hr_dir = "D:/Jiao/dataset/CatOnlyCOCOVOC/Train_Real_ESRGAN/train/HR"
-save_dir = "D:/Jiao/dataset/CatOnlyCOCOVOC/Train_Real_ESRGAN/train/HR_fixed"
+hr_dir = "D:/Jiao/dataset/CatOnlyCOCOVOC/Train_Real_ESRGAN/val/HR"
+save_dir = "D:/Jiao/dataset/CatOnlyCOCOVOC/Train_Real_ESRGAN/val/HR_fixed"
 
 os.makedirs(save_dir, exist_ok=True)
 

@@ -42,6 +42,6 @@ def xml_to_txt(xml_folder, txt_folder):
                         f.write(f"{class_id} {x_center} {y_center} {obj_width} {obj_height}\n")
 
 # 使用示例：
-xml_folder = r"D:\Jiao\dataset\Jack_generate_cat\lowQulityDark\annotations\val2017Dark_resize_annotations"  # XML文件路径
-txt_folder = r"D:\Jiao\dataset\Jack_generate_cat\lowQulityDark\annotations\val2017Dark_resize_annotations_yolo"  # YOLO格式的标签存放路径
+xml_folder = r"D:\Jiao\dataset\CatOnlyCOCOVOC\DarkResize300\annotations"  # XML文件路径
+txt_folder = r"D:\Jiao\dataset\CatOnlyCOCOVOC\DarkResize300\annotations_yolo"  # YOLO格式的标签存放路径
 xml_to_txt(xml_folder, txt_folder)
