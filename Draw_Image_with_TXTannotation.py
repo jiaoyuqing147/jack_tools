@@ -2,9 +2,9 @@ import cv2
 import os
 
 # 设置路径
-image_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_1\JPEGImages"  # 图像文件夹
-label_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_1\labels"  # 标注文件夹
-output_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_1\trainvisualized_labels"  # 保存可视化结果
+image_dir = r"D:\Jiao\dataset\JIAOTONGDENG\resizeCOCO\images\train2017"  # 图像文件夹
+label_dir = r"D:\Jiao\dataset\JIAOTONGDENG\resizeCOCO\labels\train2017"  # 标注文件夹
+output_dir = r"D:\Jiao\dataset\JIAOTONGDENG\resizeCOCO\labels\trainvisualized_labels"  # 保存可视化结果
 
 # 确保输出目录存在
 os.makedirs(output_dir, exist_ok=True)

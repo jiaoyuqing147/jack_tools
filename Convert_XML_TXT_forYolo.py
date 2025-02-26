@@ -2,9 +2,9 @@ import os
 import xml.etree.ElementTree as ET
 
 # 设置路径
-xml_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_1\Annotations"
-image_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_1\JPEGImages"
-output_label_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_1\labels"
+xml_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_2\Annotations"
+image_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_2\JPEGImages"
+output_label_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_2\labels"
 
 # 确保输出目录存在
 os.makedirs(output_label_dir, exist_ok=True)
