@@ -3,9 +3,11 @@ import xml.etree.ElementTree as ET
 import cv2
 #可视化交通信号灯用这个的
 # 数据集路径
-image_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_2\JPEGImages"
-xml_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_2\Annotations"
-output_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_2\visualized_labels"
+# image_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_2\JPEGImages"
+image_dir = r"W:\Jack_datasets\S2TLD\S2TLD\S2TLD720x1280\normal_2\JPEGImages"
+# xml_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_2\Annotations"
+xml_dir = r"W:\Jack_datasets\S2TLD\S2TLD\S2TLD720x1280\normal_2\Annotations"
+output_dir = r"W:\Jack_datasets\S2TLD\S2TLD\S2TLD720x1280\normal_2\visualized_labels"
 
 # 创建输出目录（如果不存在）
 os.makedirs(output_dir, exist_ok=True)

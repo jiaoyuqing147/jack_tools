@@ -2,20 +2,32 @@ import os
 import xml.etree.ElementTree as ET
 
 # 设置路径
-xml_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_2\Annotations"
-image_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_2\JPEGImages"
-output_label_dir = r"D:\Jiao\dataset\S2TLD\S2TLD7201280\normal_2\labels"
+
+# xml_dir = r"W:\Jack_datasets\S2TLD\S2TLD\S2TLD720x1280\normal_2\Annotations"
+# image_dir = r"W:\Jack_datasets\S2TLD\S2TLD\S2TLD720x1280\normal_2\JPEGImages"
+# output_label_dir = r"W:\Jack_datasets\S2TLD\S2TLD\S2TLD720x1280\normal_2\COCO\labels"
+
+xml_dir = r"W:\Jack_datasets\S2TLD\S2TLD\S2TLD720x1280\normal_2\Annotations"
+image_dir = r"W:\Jack_datasets\S2TLD\S2TLD\S2TLD720x1280\normal_2\JPEGImages"
+output_label_dir = r"W:\Jack_datasets\S2TLD\S2TLD\S2TLD720x1280\normal_2\COCO\labels"
+
 
 # 确保输出目录存在
 os.makedirs(output_label_dir, exist_ok=True)
 
 # 类别映射（YOLO 需要 class_id）
+# class_mapping = {
+#     "red": 0,
+#     "yellow": 1,
+#     "green": 2,
+#     "off": 3
+# }
+
+# 类别映射（YOLO 需要 class_id）
 class_mapping = {
-    "red": 0,
-    "yellow": 1,
-    "green": 2,
-    "off": 3
+    "cat": 0  # 只有一个类别 "cat"，class_id 为 0
 }
+
 
 # 遍历 XML 文件
 for xml_file in os.listdir(xml_dir):
