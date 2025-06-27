@@ -6,9 +6,9 @@ import os
 # label_dir = r"D:\Jiao\dataset\JIAOTONGDENG\resizeCOCO\labels\train2017"  # 标注文件夹
 # output_dir = r"D:\Jiao\dataset\JIAOTONGDENG\resizeCOCO\labels\trainvisualized_labels"  # 保存可视化结果
 
-image_dir = r"W:\Jack_datasets\TT100K\tt100k_2021\train"  # 图像文件夹
-label_dir = r"W:\Jack_datasets\TT100K\tt100k_2021\labels\train"  # 标注文件夹
-output_dir = r"W:\Jack_datasets\TT100K\tt100k_2021\trainvisualized_labels"  # 保存可视化结果
+image_dir = r"F:\tt100k_2021\yolo\images\train"  # 图像文件夹
+label_dir = r"F:\tt100k_2021\yolo\labels\train"  # 标注文件夹
+output_dir = r"F:\tt100k_2021\yolo\images\trainvisualized_labels"  # 保存可视化结果
 
 
 # 确保输出目录存在
