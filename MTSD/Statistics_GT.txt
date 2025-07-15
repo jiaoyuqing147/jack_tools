@@ -1,0 +1,1001 @@
+File Name;Lightning;Image Source;Number of TS
+'1.jpg';'Day Light';'Google Street View';2
+'10.jpg';'Day Light';'Google Street View';2
+'100.jpg';'Day Light';'Google Street View';2
+'101.jpg';'Day Light';'Google Street View';1
+'102.jpg';'Day Light';'Google Street View';1
+'103.jpg';'Day Light';'Google Street View';3
+'104.jpg';'Day Light';'Google Street View';1
+'105.jpg';'Day Light';'Google Street View';1
+'106.jpg';'Day Light';'Google Street View';1
+'107.jpg';'Day Light';'Google Street View';4
+'108.jpg';'Day Light';'Google Street View';1
+'109.jpg';'Day Light';'Google Street View';1
+'11.jpg';'Day Light';'Google Street View';1
+'110.jpg';'Day Light';'Google Street View';1
+'111.jpg';'Day Light';'Google Street View';1
+'112.jpg';'Day Light';'Google Street View';2
+'113.jpg';'Day Light';'Google Street View';2
+'114.jpg';'Day Light';'Google Street View';3
+'115.jpg';'Day Light';'Google Street View';2
+'116.jpg';'Day Light';'Google Street View';1
+'117.jpg';'Day Light';'Google Street View';2
+'118.jpg';'Day Light';'Google Street View';2
+'119.jpg';'Day Light';'Google Street View';3
+'12.jpg';'Day Light';'Google Street View';1
+'120.jpg';'Day Light';'Google Street View';1
+'121.jpg';'Day Light';'Google Street View';1
+'122.jpg';'Day Light';'Google Street View';1
+'123.jpg';'Day Light';'Google Street View';2
+'124.jpg';'Day Light';'Google Street View';3
+'125.jpg';'Day Light';'Google Street View';2
+'126.jpg';'Day Light';'Google Street View';1
+'127.jpg';'Day Light';'Google Street View';1
+'128.jpg';'Day Light';'Google Street View';1
+'129.jpg';'Day Light';'Google Street View';1
+'13.jpg';'Day Light';'Google Street View';1
+'130.jpg';'Day Light';'Google Street View';2
+'131.jpg';'Day Light';'Google Street View';2
+'132.jpg';'Day Light';'Google Street View';1
+'133.jpg';'Day Light';'Google Street View';1
+'134.jpg';'Day Light';'Google Street View';3
+'135.jpg';'Day Light';'Google Street View';2
+'136.jpg';'Day Light';'Google Street View';2
+'137.jpg';'Day Light';'Google Street View';1
+'138.jpg';'Day Light';'Google Street View';4
+'139.jpg';'Day Light';'Google Street View';3
+'14.jpg';'Day Light';'Google Street View';1
+'140.jpg';'Day Light';'Google Street View';2
+'141.jpg';'Day Light';'Google Street View';2
+'142.jpg';'Day Light';'Google Street View';2
+'143.jpg';'Day Light';'Google Street View';2
+'144.jpg';'Day Light';'Google Street View';1
+'145.jpg';'Day Light';'Google Street View';1
+'146.jpg';'Day Light';'Google Street View';2
+'147.jpg';'Day Light';'Google Street View';1
+'148.jpg';'Day Light';'Google Street View';1
+'149.jpg';'Day Light';'Google Street View';1
+'15.jpg';'Day Light';'Google Street View';1
+'150.jpg';'Day Light';'Google Street View';1
+'151.jpg';'Day Light';'Google Street View';1
+'152.jpg';'Day Light';'Google Street View';1
+'153.jpg';'Day Light';'Google Street View';1
+'154.jpg';'Day Light';'Google Street View';1
+'155.jpg';'Day Light';'Google Street View';1
+'156.jpg';'Day Light';'Google Street View';3
+'157.jpg';'Day Light';'Google Street View';1
+'16.jpg';'Day Light';'Google Street View';2
+'17.jpg';'Day Light';'Google Street View';1
+'18.jpg';'Day Light';'Google Street View';1
+'19.jpg';'Day Light';'Google Street View';2
+'2.jpg';'Day Light';'Google Street View';2
+'20.jpg';'Day Light';'Google Street View';3
+'21.jpg';'Day Light';'Google Street View';2
+'22.jpg';'Day Light';'Google Street View';1
+'23.jpg';'Day Light';'Google Street View';1
+'24.jpg';'Day Light';'Google Street View';1
+'25.jpg';'Day Light';'Google Street View';1
+'26.jpg';'Day Light';'Google Street View';3
+'27.jpg';'Day Light';'Google Street View';2
+'28.jpg';'Day Light';'Google Street View';3
+'29.jpg';'Day Light';'Google Street View';2
+'3.jpg';'Day Light';'Google Street View';1
+'30.jpg';'Day Light';'Google Street View';2
+'31.jpg';'Day Light';'Google Street View';2
+'32.jpg';'Day Light';'Google Street View';2
+'33.jpg';'Day Light';'Google Street View';1
+'34.jpg';'Day Light';'Google Street View';1
+'35.jpg';'Day Light';'Google Street View';1
+'36.jpg';'Day Light';'Google Street View';1
+'37.jpg';'Day Light';'Google Street View';1
+'38.jpg';'Day Light';'Google Street View';1
+'39.jpg';'Day Light';'Google Street View';2
+'4.jpg';'Day Light';'Google Street View';1
+'40.jpg';'Day Light';'Google Street View';4
+'41.jpg';'Day Light';'Google Street View';2
+'42.jpg';'Day Light';'Google Street View';2
+'43.jpg';'Day Light';'Google Street View';1
+'44.jpg';'Day Light';'Google Street View';1
+'45.jpg';'Day Light';'Google Street View';1
+'46.jpg';'Day Light';'Google Street View';1
+'47.jpg';'Day Light';'Google Street View';1
+'48.jpg';'Day Light';'Google Street View';1
+'49.jpg';'Day Light';'Google Street View';1
+'5.jpg';'Day Light';'Google Street View';2
+'50.jpg';'Day Light';'Google Street View';1
+'51.jpg';'Day Light';'Google Street View';2
+'52.jpg';'Day Light';'Google Street View';2
+'53.jpg';'Day Light';'Google Street View';2
+'54.jpg';'Day Light';'Google Street View';1
+'55.jpg';'Day Light';'Google Street View';1
+'56.jpg';'Day Light';'Google Street View';1
+'57.jpg';'Day Light';'Google Street View';1
+'58.jpg';'Day Light';'Google Street View';1
+'59.jpg';'Day Light';'Google Street View';1
+'6.jpg';'Day Light';'Google Street View';2
+'60.jpg';'Day Light';'Google Street View';1
+'61.jpg';'Day Light';'Google Street View';1
+'62.jpg';'Day Light';'Google Street View';1
+'63.jpg';'Day Light';'Google Street View';1
+'64.jpg';'Day Light';'Google Street View';1
+'65.jpg';'Day Light';'Google Street View';1
+'66.jpg';'Day Light';'Google Street View';1
+'67.jpg';'Day Light';'Google Street View';1
+'68.jpg';'Day Light';'Google Street View';1
+'69.jpg';'Day Light';'Google Street View';1
+'7.jpg';'Day Light';'Google Street View';0
+'70.jpg';'Day Light';'Google Street View';1
+'71.jpg';'Day Light';'Google Street View';1
+'72.jpg';'Day Light';'Google Street View';2
+'73.jpg';'Day Light';'Google Street View';4
+'74.jpg';'Day Light';'Google Street View';1
+'75.jpg';'Day Light';'Google Street View';3
+'76.jpg';'Day Light';'Google Street View';3
+'77.jpg';'Day Light';'Google Street View';1
+'78.jpg';'Day Light';'Google Street View';1
+'79.jpg';'Day Light';'Google Street View';1
+'8.jpg';'Day Light';'Google Street View';1
+'80.jpg';'Day Light';'Google Street View';1
+'81.jpg';'Day Light';'Google Street View';1
+'82.jpg';'Day Light';'Google Street View';1
+'83.jpg';'Day Light';'Google Street View';2
+'84.jpg';'Day Light';'Google Street View';1
+'85.jpg';'Day Light';'Google Street View';1
+'86.jpg';'Day Light';'Google Street View';1
+'87.jpg';'Day Light';'Google Street View';1
+'88.jpg';'Day Light';'Google Street View';5
+'89.jpg';'Day Light';'Google Street View';3
+'9.jpg';'Day Light';'Google Street View';1
+'90.jpg';'Day Light';'Google Street View';2
+'91.jpg';'Day Light';'Google Street View';2
+'92.jpg';'Day Light';'Google Street View';2
+'93.jpg';'Day Light';'Google Street View';2
+'94.jpg';'Day Light';'Google Street View';1
+'95.jpg';'Day Light';'Google Street View';1
+'96.jpg';'Day Light';'Google Street View';1
+'97.jpg';'Day Light';'Google Street View';1
+'98.jpg';'Day Light';'Google Street View';1
+'99.jpg';'Day Light';'Google Street View';1
+'DSC-0101.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0102.jpg';'Day Light';'Mobile Phone Camera';4
+'DSC-0106.jpg';'Day Light';'Mobile Phone Camera';5
+'DSC-0107.jpg';'Day Light';'Mobile Phone Camera';3
+'DSC-0108.jpg';'Day Light';'Mobile Phone Camera';3
+'DSC-0109.jpg';'Day Light';'Mobile Phone Camera';4
+'DSC-0119.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0120.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0122.jpg';'Day Light';'Mobile Phone Camera';2
+'DSC-0123.jpg';'Day Light';'Mobile Phone Camera';2
+'DSC-0124.jpg';'Day Light';'Mobile Phone Camera';2
+'DSC-0125.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0126.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0129.jpg';'Day Light';'Mobile Phone Camera';3
+'DSC-0130.jpg';'Day Light';'Mobile Phone Camera';3
+'DSC-0134.jpg';'Day Light';'Mobile Phone Camera';3
+'DSC-0135.jpg';'Day Light';'Mobile Phone Camera';2
+'DSC-0137.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0138.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0139.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0140.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0142.jpg';'Day Light';'Mobile Phone Camera';4
+'DSC-0143.jpg';'Day Light';'Mobile Phone Camera';3
+'DSC-0144.jpg';'Day Light';'Mobile Phone Camera';4
+'DSC-0145.jpg';'Day Light';'Mobile Phone Camera';4
+'DSC-0146.jpg';'Day Light';'Mobile Phone Camera';3
+'DSC-0147.jpg';'Day Light';'Mobile Phone Camera';4
+'DSC-0148.jpg';'Day Light';'Mobile Phone Camera';4
+'DSC-0150.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0151.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0152.jpg';'Day Light';'Mobile Phone Camera';2
+'DSC-0153.jpg';'Day Light';'Mobile Phone Camera';2
+'DSC-0325.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0326.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0328.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0329.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0330.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0331.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0332.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0333.jpg';'Day Light';'Mobile Phone Camera';1
+'DSC-0334.jpg';'Day Light';'Mobile Phone Camera';0
+'P1830919.jpg';'Day Light';'Panasonic Camera';1
+'P1830920.jpg';'Day Light';'Panasonic Camera';1
+'P1830921.jpg';'Day Light';'Panasonic Camera';1
+'P1830922.jpg';'Day Light';'Panasonic Camera';0
+'P1830923.jpg';'Day Light';'Panasonic Camera';1
+'P1830924.jpg';'Day Light';'Panasonic Camera';4
+'P1830925.jpg';'Day Light';'Panasonic Camera';3
+'P1830926.jpg';'Day Light';'Panasonic Camera';4
+'P1830927.jpg';'Day Light';'Panasonic Camera';4
+'P1830928.jpg';'Day Light';'Panasonic Camera';1
+'P1830929.jpg';'Day Light';'Panasonic Camera';1
+'P1830930.jpg';'Day Light';'Panasonic Camera';1
+'P1830931.jpg';'Day Light';'Panasonic Camera';2
+'P1830932.jpg';'Day Light';'Panasonic Camera';2
+'P1830933.jpg';'Day Light';'Panasonic Camera';2
+'P1830934.jpg';'Day Light';'Panasonic Camera';2
+'P1830935.jpg';'Day Light';'Panasonic Camera';2
+'P1830936.jpg';'Day Light';'Panasonic Camera';2
+'P1830937.jpg';'Day Light';'Panasonic Camera';1
+'P1830938.jpg';'Day Light';'Panasonic Camera';1
+'P1830939.jpg';'Day Light';'Panasonic Camera';1
+'P1830940.jpg';'Day Light';'Panasonic Camera';4
+'P1830941.jpg';'Day Light';'Panasonic Camera';1
+'P1830942.jpg';'Day Light';'Panasonic Camera';3
+'P1830943.jpg';'Day Light';'Panasonic Camera';2
+'P1830944.jpg';'Day Light';'Panasonic Camera';2
+'P1830945.jpg';'Day Light';'Panasonic Camera';1
+'P1830946.jpg';'Day Light';'Panasonic Camera';1
+'P1830947.jpg';'Day Light';'Panasonic Camera';2
+'P1830948.jpg';'Day Light';'Panasonic Camera';3
+'P1830949.jpg';'Day Light';'Panasonic Camera';3
+'P1830950.jpg';'Day Light';'Panasonic Camera';3
+'P1830951.jpg';'Day Light';'Panasonic Camera';1
+'P1830952.jpg';'Day Light';'Panasonic Camera';3
+'P1830953.jpg';'Day Light';'Panasonic Camera';3
+'P1830954.jpg';'Day Light';'Panasonic Camera';3
+'P1830955.jpg';'Day Light';'Panasonic Camera';5
+'P1830956.jpg';'Day Light';'Panasonic Camera';1
+'P1830957.jpg';'Day Light';'Panasonic Camera';2
+'P1830958.jpg';'Day Light';'Panasonic Camera';1
+'P1830959.jpg';'Day Light';'Panasonic Camera';1
+'P1830960.jpg';'Day Light';'Panasonic Camera';2
+'P1830961.jpg';'Day Light';'Panasonic Camera';2
+'P1830962.jpg';'Day Light';'Panasonic Camera';1
+'P1830963.jpg';'Day Light';'Panasonic Camera';2
+'P1830964.jpg';'Day Light';'Panasonic Camera';1
+'P1830965.jpg';'Day Light';'Panasonic Camera';2
+'P1830966.jpg';'Day Light';'Panasonic Camera';3
+'P1830967.jpg';'Day Light';'Panasonic Camera';3
+'P1830968.jpg';'Day Light';'Panasonic Camera';1
+'P1830969.jpg';'Day Light';'Panasonic Camera';4
+'P1830970.jpg';'Day Light';'Panasonic Camera';5
+'P1830971.jpg';'Day Light';'Panasonic Camera';1
+'P1830972.jpg';'Day Light';'Panasonic Camera';1
+'P1830973.jpg';'Day Light';'Panasonic Camera';1
+'P1830974.jpg';'Day Light';'Panasonic Camera';2
+'P1830975.jpg';'Day Light';'Panasonic Camera';4
+'P1830976.jpg';'Day Light';'Panasonic Camera';2
+'P1830977.jpg';'Day Light';'Panasonic Camera';1
+'P1830978.jpg';'Day Light';'Panasonic Camera';1
+'P1830979.jpg';'Day Light';'Panasonic Camera';2
+'P1830980.jpg';'Day Light';'Panasonic Camera';2
+'P1830981.jpg';'Day Light';'Panasonic Camera';2
+'P1830982.jpg';'Day Light';'Panasonic Camera';3
+'P1830983.jpg';'Day Light';'Panasonic Camera';2
+'P1830984.jpg';'Day Light';'Panasonic Camera';1
+'P1830985.jpg';'Day Light';'Panasonic Camera';1
+'P1830986.jpg';'Day Light';'Panasonic Camera';1
+'P1830987.jpg';'Day Light';'Panasonic Camera';1
+'P1830988.jpg';'Day Light';'Panasonic Camera';1
+'P1830989.jpg';'Day Light';'Panasonic Camera';1
+'P1830990.jpg';'Day Light';'Panasonic Camera';1
+'P1830991.jpg';'Day Light';'Panasonic Camera';1
+'P1830992.jpg';'Day Light';'Panasonic Camera';1
+'P1830993.jpg';'Day Light';'Panasonic Camera';2
+'P1830994.jpg';'Day Light';'Panasonic Camera';2
+'P1830995.jpg';'Day Light';'Panasonic Camera';2
+'P1830996.jpg';'Day Light';'Panasonic Camera';1
+'P1830997.jpg';'Day Light';'Panasonic Camera';1
+'P1830998.jpg';'Day Light';'Panasonic Camera';1
+'P1830999.jpg';'Day Light';'Panasonic Camera';1
+'P1840001.jpg';'Day Light';'Panasonic Camera';1
+'P1840002.jpg';'Day Light';'Panasonic Camera';2
+'P1840003.jpg';'Day Light';'Panasonic Camera';1
+'P1840004.jpg';'Day Light';'Panasonic Camera';1
+'P1840005.jpg';'Day Light';'Panasonic Camera';1
+'P1840006.jpg';'Day Light';'Panasonic Camera';2
+'P1840007.jpg';'Day Light';'Panasonic Camera';6
+'P1840008.jpg';'Day Light';'Panasonic Camera';5
+'P1840009.jpg';'Day Light';'Panasonic Camera';4
+'P1840011.jpg';'Day Light';'Panasonic Camera';6
+'P1840012.jpg';'Day Light';'Panasonic Camera';10
+'P1840013.jpg';'Day Light';'Panasonic Camera';4
+'P1840014.jpg';'Day Light';'Panasonic Camera';3
+'P1840015.jpg';'Day Light';'Panasonic Camera';2
+'P1840016.jpg';'Day Light';'Panasonic Camera';2
+'P1840017.jpg';'Day Light';'Panasonic Camera';3
+'P1840018.jpg';'Day Light';'Panasonic Camera';2
+'P1840019.jpg';'Day Light';'Panasonic Camera';2
+'P1840020.jpg';'Day Light';'Panasonic Camera';1
+'P1840021.jpg';'Day Light';'Panasonic Camera';1
+'P1840022.jpg';'Day Light';'Panasonic Camera';1
+'P1840023.jpg';'Day Light';'Panasonic Camera';2
+'P1840024.jpg';'Day Light';'Panasonic Camera';3
+'P1840025.jpg';'Day Light';'Panasonic Camera';3
+'P1840026.jpg';'Day Light';'Panasonic Camera';2
+'P1840027.jpg';'Day Light';'Panasonic Camera';1
+'P1840028.jpg';'Day Light';'Panasonic Camera';1
+'P1840029.jpg';'Day Light';'Panasonic Camera';1
+'P1840030.jpg';'Day Light';'Panasonic Camera';2
+'P1840031.jpg';'Day Light';'Panasonic Camera';1
+'P1840032.jpg';'Day Light';'Panasonic Camera';2
+'P1840033.jpg';'Day Light';'Panasonic Camera';1
+'P1840034.jpg';'Day Light';'Panasonic Camera';4
+'P1840035.jpg';'Day Light';'Panasonic Camera';3
+'P1840036.jpg';'Day Light';'Panasonic Camera';3
+'P1840037.jpg';'Day Light';'Panasonic Camera';4
+'P1840038.jpg';'Day Light';'Panasonic Camera';4
+'P1840039.jpg';'Day Light';'Panasonic Camera';3
+'P1840040.jpg';'Day Light';'Panasonic Camera';4
+'P1840041.jpg';'Day Light';'Panasonic Camera';5
+'P1840042.jpg';'Day Light';'Panasonic Camera';2
+'P1840043.jpg';'Day Light';'Panasonic Camera';2
+'P1840044.jpg';'Day Light';'Panasonic Camera';2
+'P1840045.jpg';'Day Light';'Panasonic Camera';1
+'P1840046.jpg';'Day Light';'Panasonic Camera';2
+'P1840047.jpg';'Day Light';'Panasonic Camera';2
+'P1840048.jpg';'Day Light';'Panasonic Camera';2
+'P1840049.jpg';'Day Light';'Panasonic Camera';1
+'P1840050.jpg';'Day Light';'Panasonic Camera';1
+'P1840051.jpg';'Day Light';'Panasonic Camera';2
+'P1840052.jpg';'Day Light';'Panasonic Camera';2
+'P1840053.jpg';'Day Light';'Panasonic Camera';1
+'P1840054.jpg';'Day Light';'Panasonic Camera';1
+'P1840055.jpg';'Day Light';'Panasonic Camera';5
+'P1840056.jpg';'Day Light';'Panasonic Camera';6
+'P1840057.jpg';'Day Light';'Panasonic Camera';2
+'P1840058.jpg';'Day Light';'Panasonic Camera';3
+'P1840059.jpg';'Day Light';'Panasonic Camera';2
+'P1840060.jpg';'Day Light';'Panasonic Camera';2
+'P1840061.jpg';'Day Light';'Panasonic Camera';2
+'P1840062.jpg';'Day Light';'Panasonic Camera';2
+'P1840063.jpg';'Day Light';'Panasonic Camera';1
+'P1840064.jpg';'Day Light';'Panasonic Camera';1
+'P1840065.jpg';'Day Light';'Panasonic Camera';1
+'P1840066.jpg';'Day Light';'Panasonic Camera';1
+'P1840067.jpg';'Day Light';'Panasonic Camera';1
+'P1840068.jpg';'Day Light';'Panasonic Camera';1
+'P1840069.jpg';'Day Light';'Panasonic Camera';3
+'P1840070.jpg';'Day Light';'Panasonic Camera';5
+'P1840071.jpg';'Day Light';'Panasonic Camera';5
+'P1840072.jpg';'Day Light';'Panasonic Camera';5
+'P1840073.jpg';'Day Light';'Panasonic Camera';4
+'P1840074.jpg';'Day Light';'Panasonic Camera';4
+'P1840075.jpg';'Day Light';'Panasonic Camera';1
+'P1840076.jpg';'Day Light';'Panasonic Camera';1
+'P1840077.jpg';'Day Light';'Panasonic Camera';2
+'P1840078.jpg';'Day Light';'Panasonic Camera';2
+'P1840079.jpg';'Day Light';'Panasonic Camera';1
+'P1840080.jpg';'Day Light';'Panasonic Camera';1
+'P1840081.jpg';'Day Light';'Panasonic Camera';4
+'P1840082.jpg';'Day Light';'Panasonic Camera';3
+'P1840083.jpg';'Day Light';'Panasonic Camera';3
+'P1840084.jpg';'Day Light';'Panasonic Camera';3
+'P1840085.jpg';'Day Light';'Panasonic Camera';1
+'P1840086.jpg';'Day Light';'Panasonic Camera';1
+'P1840087.jpg';'Day Light';'Panasonic Camera';1
+'P1840088.jpg';'Day Light';'Panasonic Camera';1
+'P1840089.jpg';'Day Light';'Panasonic Camera';6
+'P1840090.jpg';'Day Light';'Panasonic Camera';5
+'P1840091.jpg';'Day Light';'Panasonic Camera';5
+'P1840092.jpg';'Day Light';'Panasonic Camera';4
+'P1840093.jpg';'Day Light';'Panasonic Camera';1
+'P1840094.jpg';'Day Light';'Panasonic Camera';2
+'P1840095.jpg';'Day Light';'Panasonic Camera';4
+'P1840096.jpg';'Day Light';'Panasonic Camera';4
+'P1840097.jpg';'Day Light';'Panasonic Camera';2
+'P1840098.jpg';'Day Light';'Panasonic Camera';2
+'P1840099.jpg';'Day Light';'Panasonic Camera';5
+'P1840100.jpg';'Day Light';'Panasonic Camera';3
+'P1840101.jpg';'Day Light';'Panasonic Camera';3
+'P1840102.jpg';'Day Light';'Panasonic Camera';5
+'P1840103.jpg';'Day Light';'Panasonic Camera';1
+'P1840104.jpg';'Day Light';'Panasonic Camera';2
+'P1840105.jpg';'Day Light';'Panasonic Camera';0
+'P1840106.jpg';'Day Light';'Panasonic Camera';2
+'P1840107.jpg';'Day Light';'Panasonic Camera';1
+'P1840108.jpg';'Day Light';'Panasonic Camera';3
+'P1840109.jpg';'Day Light';'Panasonic Camera';2
+'P1840110.jpg';'Day Light';'Panasonic Camera';3
+'P1840111.jpg';'Day Light';'Panasonic Camera';8
+'P1840112.jpg';'Day Light';'Panasonic Camera';10
+'P1840113.jpg';'Day Light';'Panasonic Camera';15
+'P1840114.jpg';'Day Light';'Panasonic Camera';14
+'P1840115.jpg';'Day Light';'Panasonic Camera';13
+'P1840116.jpg';'Day Light';'Panasonic Camera';13
+'P1840117.jpg';'Day Light';'Panasonic Camera';9
+'P1840118.jpg';'Day Light';'Panasonic Camera';8
+'P1840119.jpg';'Day Light';'Panasonic Camera';7
+'P1840120.jpg';'Day Light';'Panasonic Camera';5
+'P1840121.jpg';'Day Light';'Panasonic Camera';4
+'P1840122.jpg';'Day Light';'Panasonic Camera';2
+'P1840123.jpg';'Day Light';'Panasonic Camera';3
+'P1840124.jpg';'Day Light';'Panasonic Camera';1
+'P1840125.jpg';'Day Light';'Panasonic Camera';2
+'P1840126.jpg';'Day Light';'Panasonic Camera';1
+'P1840127.jpg';'Day Light';'Panasonic Camera';1
+'P1840128.jpg';'Day Light';'Panasonic Camera';2
+'P1840129.jpg';'Day Light';'Panasonic Camera';2
+'P1840130.jpg';'Day Light';'Panasonic Camera';2
+'P1840131.jpg';'Day Light';'Panasonic Camera';3
+'P1840132.jpg';'Day Light';'Panasonic Camera';3
+'P1840133.jpg';'Day Light';'Panasonic Camera';3
+'P1840134.jpg';'Day Light';'Panasonic Camera';3
+'P1840135.jpg';'Day Light';'Panasonic Camera';3
+'P1840136.jpg';'Day Light';'Panasonic Camera';3
+'P1840137.jpg';'Day Light';'Panasonic Camera';2
+'P1840138.jpg';'Day Light';'Panasonic Camera';1
+'P1840139.jpg';'Day Light';'Panasonic Camera';1
+'P1840140.jpg';'Day Light';'Panasonic Camera';3
+'P1840141.jpg';'Day Light';'Panasonic Camera';1
+'P1840142.jpg';'Day Light';'Panasonic Camera';1
+'P1840143.jpg';'Day Light';'Panasonic Camera';7
+'P1840144.jpg';'Day Light';'Panasonic Camera';6
+'P1840145.jpg';'Day Light';'Panasonic Camera';4
+'P1840146.jpg';'Day Light';'Panasonic Camera';5
+'P1840147.jpg';'Day Light';'Panasonic Camera';3
+'P1840148.jpg';'Day Light';'Panasonic Camera';3
+'P1840149.jpg';'Day Light';'Panasonic Camera';3
+'P1840150.jpg';'Day Light';'Panasonic Camera';4
+'P1840151.jpg';'Day Light';'Panasonic Camera';4
+'P1840152.jpg';'Day Light';'Panasonic Camera';4
+'P1840153.jpg';'Day Light';'Panasonic Camera';3
+'P1840154.jpg';'Day Light';'Panasonic Camera';3
+'P1840155.jpg';'Day Light';'Panasonic Camera';1
+'P1840156.jpg';'Day Light';'Panasonic Camera';2
+'P1840157.jpg';'Day Light';'Panasonic Camera';2
+'P1840159.jpg';'Day Light';'Panasonic Camera';3
+'P1840160.jpg';'Day Light';'Panasonic Camera';3
+'P1840161.jpg';'Day Light';'Panasonic Camera';3
+'P1840162.jpg';'Day Light';'Panasonic Camera';1
+'P1840163.jpg';'Day Light';'Panasonic Camera';1
+'P1840164.jpg';'Day Light';'Panasonic Camera';1
+'P1840165.jpg';'Day Light';'Panasonic Camera';1
+'P1840166.jpg';'Day Light';'Panasonic Camera';1
+'P1840168.jpg';'Day Light';'Panasonic Camera';1
+'P1840169.jpg';'Day Light';'Panasonic Camera';1
+'P1840170.jpg';'Day Light';'Panasonic Camera';1
+'P1840171.jpg';'Day Light';'Panasonic Camera';1
+'P1840172.jpg';'Day Light';'Panasonic Camera';1
+'P1840173.jpg';'Day Light';'Panasonic Camera';3
+'P1840174.jpg';'Day Light';'Panasonic Camera';1
+'P1840175.jpg';'Day Light';'Panasonic Camera';1
+'P1840176.jpg';'Day Light';'Panasonic Camera';1
+'P1840177.jpg';'Day Light';'Panasonic Camera';1
+'P1840178.jpg';'Day Light';'Panasonic Camera';1
+'P1840179.jpg';'Day Light';'Panasonic Camera';2
+'P1840180.jpg';'Day Light';'Panasonic Camera';2
+'P1840181.jpg';'Day Light';'Panasonic Camera';8
+'P1840182.jpg';'Day Light';'Panasonic Camera';8
+'P1840183.jpg';'Day Light';'Panasonic Camera';4
+'P1840184.jpg';'Day Light';'Panasonic Camera';6
+'P1840185.jpg';'Day Light';'Panasonic Camera';7
+'P1840186.jpg';'Day Light';'Panasonic Camera';6
+'P1840187.jpg';'Day Light';'Panasonic Camera';3
+'P1840188.jpg';'Day Light';'Panasonic Camera';2
+'P1840189.jpg';'Day Light';'Panasonic Camera';1
+'P1840190.jpg';'Day Light';'Panasonic Camera';1
+'P1840191.jpg';'Day Light';'Panasonic Camera';1
+'P1840193.jpg';'Day Light';'Panasonic Camera';1
+'P1840194.jpg';'Day Light';'Panasonic Camera';1
+'P1840195.jpg';'Day Light';'Panasonic Camera';1
+'P1840196.jpg';'Day Light';'Panasonic Camera';1
+'P1840197.jpg';'Day Light';'Panasonic Camera';1
+'P1840198.jpg';'Day Light';'Panasonic Camera';1
+'P1840199.jpg';'Day Light';'Panasonic Camera';6
+'P1840200.jpg';'Day Light';'Panasonic Camera';6
+'P1840201.jpg';'Day Light';'Panasonic Camera';5
+'P1840202.jpg';'Day Light';'Panasonic Camera';3
+'P1840203.jpg';'Day Light';'Panasonic Camera';2
+'P1840204.jpg';'Day Light';'Panasonic Camera';1
+'P1840205.jpg';'Day Light';'Panasonic Camera';1
+'P1840206.jpg';'Day Light';'Panasonic Camera';1
+'P1840207.jpg';'Day Light';'Panasonic Camera';1
+'P1840208.jpg';'Day Light';'Panasonic Camera';1
+'P1840209.jpg';'Day Light';'Panasonic Camera';1
+'P1840210.jpg';'Day Light';'Panasonic Camera';1
+'P1840211.jpg';'Day Light';'Panasonic Camera';1
+'P1840212.jpg';'Day Light';'Panasonic Camera';1
+'P1840213.jpg';'Day Light';'Panasonic Camera';1
+'P1840214.jpg';'Day Light';'Panasonic Camera';3
+'P1840215.jpg';'Day Light';'Panasonic Camera';2
+'P1840216.jpg';'Day Light';'Panasonic Camera';2
+'P1840217.jpg';'Day Light';'Panasonic Camera';2
+'P1840218.jpg';'Day Light';'Panasonic Camera';3
+'P1840219.jpg';'Day Light';'Panasonic Camera';2
+'P1840220.jpg';'Day Light';'Panasonic Camera';1
+'P1840221.jpg';'Day Light';'Panasonic Camera';1
+'P1840222.jpg';'Day Light';'Panasonic Camera';2
+'P1840223.jpg';'Day Light';'Panasonic Camera';1
+'P1840224.jpg';'Day Light';'Panasonic Camera';1
+'P1840225.jpg';'Day Light';'Panasonic Camera';1
+'P1840226.jpg';'Day Light';'Panasonic Camera';2
+'P1840227.jpg';'Day Light';'Panasonic Camera';4
+'P1840228.jpg';'Day Light';'Panasonic Camera';2
+'P1840229.jpg';'Raining';'Panasonic Camera';1
+'P1840230.jpg';'Raining';'Panasonic Camera';2
+'P1840231.jpg';'Raining';'Panasonic Camera';4
+'P1840232.jpg';'Raining';'Panasonic Camera';2
+'P1840233.jpg';'Raining';'Panasonic Camera';2
+'P1840234.jpg';'Raining';'Panasonic Camera';1
+'P1840235.jpg';'Raining';'Panasonic Camera';1
+'P1840236.jpg';'Raining';'Panasonic Camera';4
+'P1840237.jpg';'Raining';'Panasonic Camera';2
+'P1840238.jpg';'Day Light';'Panasonic Camera';2
+'P1840239.jpg';'Day Light';'Panasonic Camera';2
+'P1840240.jpg';'Day Light';'Panasonic Camera';2
+'P1840241.jpg';'Day Light';'Panasonic Camera';2
+'P1840242.jpg';'Day Light';'Panasonic Camera';4
+'P1840243.jpg';'Day Light';'Panasonic Camera';2
+'P1840244.jpg';'Day Light';'Panasonic Camera';2
+'P1840245.jpg';'Day Light';'Panasonic Camera';4
+'P1840246.jpg';'Day Light';'Panasonic Camera';5
+'P1840247.jpg';'Day Light';'Panasonic Camera';4
+'P1840248.jpg';'Day Light';'Panasonic Camera';3
+'P1840249.jpg';'Day Light';'Panasonic Camera';1
+'P1840250.jpg';'Day Light';'Panasonic Camera';1
+'P1840251.jpg';'Day Light';'Panasonic Camera';1
+'P1840252.jpg';'Day Light';'Panasonic Camera';1
+'P1840256.jpg';'Night';'Panasonic Camera';3
+'P1840258.jpg';'Night';'Panasonic Camera';1
+'P1840259.jpg';'Night';'Panasonic Camera';1
+'P1840260.jpg';'Night';'Panasonic Camera';1
+'P1840261.jpg';'Night';'Panasonic Camera';2
+'P1840269.jpg';'Day Light';'Panasonic Camera';1
+'P1840270.jpg';'Day Light';'Panasonic Camera';1
+'P1840271.jpg';'Day Light';'Panasonic Camera';1
+'P1840272.jpg';'Day Light';'Panasonic Camera';3
+'P1840273.jpg';'Day Light';'Panasonic Camera';3
+'P1840275.jpg';'Day Light';'Panasonic Camera';4
+'P1840276.jpg';'Day Light';'Panasonic Camera';3
+'P1840279.jpg';'Day Light';'Panasonic Camera';2
+'P1840280.jpg';'Day Light';'Panasonic Camera';2
+'P1840281.jpg';'Day Light';'Panasonic Camera';2
+'P1840282.jpg';'Day Light';'Panasonic Camera';1
+'P1840283.jpg';'Day Light';'Panasonic Camera';1
+'P1840284.jpg';'Day Light';'Panasonic Camera';2
+'P1840285.jpg';'Day Light';'Panasonic Camera';2
+'P1840286.jpg';'Day Light';'Panasonic Camera';1
+'P1840287.jpg';'Day Light';'Panasonic Camera';2
+'P1840288.jpg';'Day Light';'Panasonic Camera';2
+'P1840289.jpg';'Day Light';'Panasonic Camera';2
+'P1840290.jpg';'Day Light';'Panasonic Camera';1
+'P1840291.jpg';'Day Light';'Panasonic Camera';2
+'P1840292.jpg';'Day Light';'Panasonic Camera';1
+'P1840293.jpg';'Day Light';'Panasonic Camera';3
+'P1840294.jpg';'Day Light';'Panasonic Camera';4
+'P1840295.jpg';'Day Light';'Panasonic Camera';1
+'P1840297.jpg';'Night';'Panasonic Camera';2
+'P1840298.jpg';'Night';'Panasonic Camera';2
+'P1840300.jpg';'Night';'Panasonic Camera';1
+'P1840301.jpg';'Night';'Panasonic Camera';2
+'P1840302.jpg';'Night';'Panasonic Camera';1
+'P1840303.jpg';'Night';'Panasonic Camera';5
+'P1840304.jpg';'Night';'Panasonic Camera';4
+'P1840305.jpg';'Night';'Panasonic Camera';2
+'P1840306.jpg';'Night';'Panasonic Camera';2
+'P1840307.jpg';'Night';'Panasonic Camera';1
+'P1840309.jpg';'Night';'Panasonic Camera';1
+'P1840310.jpg';'Night';'Panasonic Camera';1
+'P1840311.jpg';'Night';'Panasonic Camera';1
+'P1840312.jpg';'Night';'Panasonic Camera';1
+'P1840313.jpg';'Night';'Panasonic Camera';1
+'P1840314.jpg';'Night';'Panasonic Camera';1
+'P1840315.jpg';'Night';'Panasonic Camera';1
+'P1840316.jpg';'Night';'Panasonic Camera';1
+'P1840317.jpg';'Night';'Panasonic Camera';3
+'P1840318.jpg';'Night';'Panasonic Camera';2
+'P1840319.jpg';'Night';'Panasonic Camera';2
+'P1840321.jpg';'Night';'Panasonic Camera';1
+'P1840322.jpg';'Night';'Panasonic Camera';1
+'P1840323.jpg';'Night';'Panasonic Camera';1
+'P1840324.jpg';'Night';'Panasonic Camera';1
+'P1840325.jpg';'Night';'Panasonic Camera';2
+'P1840327.jpg';'Night';'Panasonic Camera';2
+'P1840328.jpg';'Night';'Panasonic Camera';2
+'P1840330.jpg';'Night';'Panasonic Camera';1
+'P1840332.jpg';'Night';'Panasonic Camera';1
+'P1840333.jpg';'Night';'Panasonic Camera';1
+'P1840335.jpg';'Night';'Panasonic Camera';1
+'P1840336.jpg';'Night';'Panasonic Camera';1
+'P1840337.jpg';'Night';'Panasonic Camera';1
+'P1840338.jpg';'Night';'Panasonic Camera';1
+'P1840343.jpg';'Raining';'Panasonic Camera';2
+'P1840344.jpg';'Raining';'Panasonic Camera';1
+'P1840345.jpg';'Raining';'Panasonic Camera';1
+'P1840346.jpg';'Raining';'Panasonic Camera';1
+'P1840347.jpg';'Raining';'Panasonic Camera';1
+'P1840348.jpg';'Raining';'Panasonic Camera';4
+'P1840349.jpg';'Raining';'Panasonic Camera';4
+'P1840350.jpg';'Raining';'Panasonic Camera';1
+'P1840351.jpg';'Raining';'Panasonic Camera';1
+'P1840352.jpg';'Raining';'Panasonic Camera';1
+'P1840353.jpg';'Raining';'Panasonic Camera';1
+'P1840354.jpg';'Raining';'Panasonic Camera';1
+'P1840355.jpg';'Raining';'Panasonic Camera';1
+'P1840356.jpg';'Raining';'Panasonic Camera';3
+'P1840357.jpg';'Raining';'Panasonic Camera';3
+'P1840358.jpg';'Raining';'Panasonic Camera';2
+'P1840359.jpg';'Raining';'Panasonic Camera';2
+'P1840360.jpg';'Raining';'Panasonic Camera';1
+'P1840361.jpg';'Raining';'Panasonic Camera';1
+'P1840362.jpg';'Raining';'Panasonic Camera';1
+'P1840363.jpg';'Raining';'Panasonic Camera';2
+'P1840364.jpg';'Raining';'Panasonic Camera';3
+'P1840365.jpg';'Raining';'Panasonic Camera';1
+'P1840366.jpg';'Raining';'Panasonic Camera';1
+'P1840367.jpg';'Raining';'Panasonic Camera';1
+'P1840368.jpg';'Raining';'Panasonic Camera';2
+'P1840369.jpg';'Raining';'Panasonic Camera';2
+'P1840370.jpg';'Raining';'Panasonic Camera';1
+'P1840371.jpg';'Raining';'Panasonic Camera';2
+'P1840372.jpg';'Raining';'Panasonic Camera';2
+'P1840373.jpg';'Raining';'Panasonic Camera';2
+'P1840374.jpg';'Raining';'Panasonic Camera';2
+'P1840375.jpg';'Raining';'Panasonic Camera';3
+'P1840376.jpg';'Raining';'Panasonic Camera';1
+'P1840377.jpg';'Raining';'Panasonic Camera';1
+'P1840378.jpg';'Raining';'Panasonic Camera';3
+'P1840379.jpg';'Raining';'Panasonic Camera';1
+'P1840380.jpg';'Day Light';'Panasonic Camera';1
+'P1840382.jpg';'Day Light';'Panasonic Camera';3
+'P1840383.jpg';'Day Light';'Panasonic Camera';3
+'P1840384.jpg';'Day Light';'Panasonic Camera';3
+'P1840385.jpg';'Day Light';'Panasonic Camera';1
+'P1840386.jpg';'Day Light';'Panasonic Camera';1
+'P1840387.jpg';'Day Light';'Panasonic Camera';2
+'P1840388.jpg';'Day Light';'Panasonic Camera';4
+'P1840389.jpg';'Day Light';'Panasonic Camera';5
+'P1840390.jpg';'Day Light';'Panasonic Camera';1
+'P1840391.jpg';'Day Light';'Panasonic Camera';2
+'P1840392.jpg';'Day Light';'Panasonic Camera';2
+'P1840393.jpg';'Day Light';'Panasonic Camera';2
+'P1840394.jpg';'Day Light';'Panasonic Camera';2
+'P1840395.jpg';'Day Light';'Panasonic Camera';2
+'P1840396.jpg';'Day Light';'Panasonic Camera';1
+'P1840397.jpg';'Day Light';'Panasonic Camera';2
+'P1840398.jpg';'Day Light';'Panasonic Camera';2
+'P1840399.jpg';'Night';'Panasonic Camera';2
+'P1840400.jpg';'Night';'Panasonic Camera';2
+'P1840402.jpg';'Night';'Panasonic Camera';1
+'P1840403.jpg';'Night';'Panasonic Camera';1
+'P1840404.jpg';'Night';'Panasonic Camera';2
+'P1840405.jpg';'Night';'Panasonic Camera';2
+'P1840406.jpg';'Night';'Panasonic Camera';2
+'P1840407.jpg';'Night';'Panasonic Camera';1
+'P1840408.jpg';'Night';'Panasonic Camera';4
+'P1840409.jpg';'Night';'Panasonic Camera';4
+'P1840410.jpg';'Night';'Panasonic Camera';2
+'P1840411.jpg';'Night';'Panasonic Camera';5
+'P1840412.jpg';'Night';'Panasonic Camera';1
+'P1840413.jpg';'Night';'Panasonic Camera';4
+'P1840414.jpg';'Night';'Panasonic Camera';4
+'P1840415.jpg';'Night';'Panasonic Camera';2
+'P1840424.jpg';'Night';'Panasonic Camera';2
+'P1840426.jpg';'Night';'Panasonic Camera';3
+'P1840427.jpg';'Night';'Panasonic Camera';1
+'P1840429.jpg';'Night';'Panasonic Camera';4
+'P1840431.jpg';'Night';'Panasonic Camera';2
+'P1840432.jpg';'Night';'Panasonic Camera';1
+'P1840434.jpg';'Day Light';'Panasonic Camera';1
+'P1840435.jpg';'Day Light';'Panasonic Camera';1
+'P1840436.jpg';'Day Light';'Panasonic Camera';1
+'P1840437.jpg';'Day Light';'Panasonic Camera';1
+'P1840438.jpg';'Day Light';'Panasonic Camera';1
+'P1840439.jpg';'Day Light';'Panasonic Camera';1
+'P1840440.jpg';'Day Light';'Panasonic Camera';4
+'P1840441.jpg';'Day Light';'Panasonic Camera';5
+'P1840442.jpg';'Day Light';'Panasonic Camera';3
+'P1840443.jpg';'Day Light';'Panasonic Camera';3
+'P1840444.jpg';'Day Light';'Panasonic Camera';1
+'P1840445.jpg';'Day Light';'Panasonic Camera';3
+'P1840446.jpg';'Day Light';'Panasonic Camera';3
+'P1840447.jpg';'Day Light';'Panasonic Camera';3
+'P1840448.jpg';'Day Light';'Panasonic Camera';3
+'P1840449.jpg';'Day Light';'Panasonic Camera';3
+'P1840450.jpg';'Day Light';'Panasonic Camera';4
+'P1840451.jpg';'Day Light';'Panasonic Camera';1
+'P1840452.jpg';'Day Light';'Panasonic Camera';1
+'P1840453.jpg';'Day Light';'Panasonic Camera';1
+'P1840454.jpg';'Day Light';'Panasonic Camera';1
+'P1840455.jpg';'Day Light';'Panasonic Camera';1
+'P1840456.jpg';'Day Light';'Panasonic Camera';1
+'P1840457.jpg';'Day Light';'Panasonic Camera';1
+'P1840458.jpg';'Day Light';'Panasonic Camera';1
+'P1840459.jpg';'Day Light';'Panasonic Camera';1
+'P1840460.jpg';'Day Light';'Panasonic Camera';2
+'P1840461.jpg';'Day Light';'Panasonic Camera';1
+'P1840462.jpg';'Raining';'Panasonic Camera';1
+'P1840463.jpg';'Raining';'Panasonic Camera';2
+'P1840464.jpg';'Raining';'Panasonic Camera';2
+'P1840465.jpg';'Raining';'Panasonic Camera';0
+'P1840466.jpg';'Raining';'Panasonic Camera';1
+'P1840467.jpg';'Raining';'Panasonic Camera';1
+'P1840468.jpg';'Raining';'Panasonic Camera';1
+'P1840469.jpg';'Raining';'Panasonic Camera';1
+'P1840470.jpg';'Raining';'Panasonic Camera';2
+'P1840471.jpg';'Raining';'Panasonic Camera';1
+'P1840472.jpg';'Raining';'Panasonic Camera';1
+'P1840473.jpg';'Raining';'Panasonic Camera';1
+'P1840475.jpg';'Raining';'Panasonic Camera';1
+'P1840476.jpg';'Raining';'Panasonic Camera';1
+'P1840477.jpg';'Raining';'Panasonic Camera';1
+'P1840478.jpg';'Raining';'Panasonic Camera';2
+'P1840479.jpg';'Raining';'Panasonic Camera';4
+'P1840480.jpg';'Raining';'Panasonic Camera';4
+'P1840481.jpg';'Raining';'Panasonic Camera';3
+'P1840482.jpg';'Raining';'Panasonic Camera';1
+'P1840483.jpg';'Raining';'Panasonic Camera';1
+'P1840484.jpg';'Raining';'Panasonic Camera';1
+'P1840485.jpg';'Raining';'Panasonic Camera';1
+'P1840486.jpg';'Raining';'Panasonic Camera';2
+'P1840487.jpg';'Raining';'Panasonic Camera';1
+'P1840488.jpg';'Raining';'Panasonic Camera';4
+'P1840489.jpg';'Raining';'Panasonic Camera';2
+'P1840490.jpg';'Raining';'Panasonic Camera';2
+'P1840491.jpg';'Raining';'Panasonic Camera';1
+'P1840492.jpg';'Raining';'Panasonic Camera';2
+'P1840493.jpg';'Raining';'Panasonic Camera';2
+'P1840494.jpg';'Raining';'Panasonic Camera';2
+'P1840495.jpg';'Raining';'Panasonic Camera';3
+'P1840496.jpg';'Raining';'Panasonic Camera';2
+'P1840497.jpg';'Raining';'Panasonic Camera';2
+'P1840498.jpg';'Raining';'Panasonic Camera';3
+'P1840499.jpg';'Raining';'Panasonic Camera';3
+'P1840500.jpg';'Raining';'Panasonic Camera';3
+'P1840501.jpg';'Raining';'Panasonic Camera';1
+'P1840502.jpg';'Raining';'Panasonic Camera';2
+'P1840503.jpg';'Raining';'Panasonic Camera';1
+'P1840504.jpg';'Raining';'Panasonic Camera';2
+'P1840505.jpg';'Raining';'Panasonic Camera';3
+'P1840506.jpg';'Raining';'Panasonic Camera';2
+'P1840507.jpg';'Raining';'Panasonic Camera';2
+'P1840508.jpg';'Raining';'Panasonic Camera';1
+'P1840509.jpg';'Raining';'Panasonic Camera';0
+'P1840510.jpg';'Raining';'Panasonic Camera';1
+'P1840511.jpg';'Raining';'Panasonic Camera';2
+'P1840512.jpg';'Day Light';'Panasonic Camera';1
+'P1840513.jpg';'Day Light';'Panasonic Camera';1
+'P1840514.jpg';'Day Light';'Panasonic Camera';1
+'P1840515.jpg';'Day Light';'Panasonic Camera';2
+'P1840516.jpg';'Day Light';'Panasonic Camera';1
+'P1840517.jpg';'Day Light';'Panasonic Camera';1
+'P1840518.jpg';'Day Light';'Panasonic Camera';1
+'P1840519.jpg';'Day Light';'Panasonic Camera';1
+'P1840520.jpg';'Day Light';'Panasonic Camera';1
+'P1840521.jpg';'Day Light';'Panasonic Camera';5
+'P1840522.jpg';'Day Light';'Panasonic Camera';5
+'P1840523.jpg';'Day Light';'Panasonic Camera';2
+'P1840524.jpg';'Day Light';'Panasonic Camera';2
+'P1840525.jpg';'Day Light';'Panasonic Camera';2
+'P1840526.jpg';'Day Light';'Panasonic Camera';2
+'P1840527.jpg';'Day Light';'Panasonic Camera';1
+'P1840528.jpg';'Day Light';'Panasonic Camera';1
+'P1840529.jpg';'Day Light';'Panasonic Camera';5
+'P1840530.jpg';'Day Light';'Panasonic Camera';5
+'P1840531.jpg';'Day Light';'Panasonic Camera';5
+'P1840532.jpg';'Day Light';'Panasonic Camera';2
+'P1840533.jpg';'Day Light';'Panasonic Camera';3
+'P1840534.jpg';'Day Light';'Panasonic Camera';2
+'P1840535.jpg';'Day Light';'Panasonic Camera';2
+'P1840536.jpg';'Day Light';'Panasonic Camera';2
+'P1840537.jpg';'Day Light';'Panasonic Camera';2
+'P1840538.jpg';'Day Light';'Panasonic Camera';1
+'P1840539.jpg';'Day Light';'Panasonic Camera';1
+'P1840540.jpg';'Day Light';'Panasonic Camera';1
+'P1840541.jpg';'Day Light';'Panasonic Camera';2
+'P1840542.jpg';'Day Light';'Panasonic Camera';2
+'P1840543.jpg';'Day Light';'Panasonic Camera';1
+'P1840544.jpg';'Day Light';'Panasonic Camera';1
+'P1840545.jpg';'Day Light';'Panasonic Camera';1
+'P1840546.jpg';'Day Light';'Panasonic Camera';1
+'P1840547.jpg';'Day Light';'Panasonic Camera';2
+'P1840548.jpg';'Day Light';'Panasonic Camera';2
+'P1840549.jpg';'Day Light';'Panasonic Camera';2
+'P1840550.jpg';'Day Light';'Panasonic Camera';1
+'P1840551.jpg';'Day Light';'Panasonic Camera';1
+'P1840552.jpg';'Day Light';'Panasonic Camera';2
+'P1840553.jpg';'Day Light';'Panasonic Camera';1
+'P1840554.jpg';'Day Light';'Panasonic Camera';1
+'P1840555.jpg';'Day Light';'Panasonic Camera';1
+'P1840556.jpg';'Day Light';'Panasonic Camera';1
+'P1840557.jpg';'Day Light';'Panasonic Camera';1
+'P1840558.jpg';'Day Light';'Panasonic Camera';1
+'P1840559.jpg';'Day Light';'Panasonic Camera';4
+'P1840560.jpg';'Day Light';'Panasonic Camera';4
+'P1840561.jpg';'Day Light';'Panasonic Camera';1
+'P1840562.jpg';'Day Light';'Panasonic Camera';1
+'P1840563.jpg';'Day Light';'Panasonic Camera';1
+'P1840564.jpg';'Day Light';'Panasonic Camera';2
+'P1840565.jpg';'Day Light';'Panasonic Camera';2
+'P1840566.jpg';'Day Light';'Panasonic Camera';2
+'P1840567.jpg';'Day Light';'Panasonic Camera';2
+'P1840568.jpg';'Day Light';'Panasonic Camera';1
+'P1840569.jpg';'Day Light';'Panasonic Camera';1
+'P1840570.jpg';'Day Light';'Panasonic Camera';1
+'P1840571.jpg';'Day Light';'Panasonic Camera';1
+'P1840572.jpg';'Day Light';'Panasonic Camera';1
+'P1840573.jpg';'Day Light';'Panasonic Camera';1
+'P1840574.jpg';'Day Light';'Panasonic Camera';4
+'P1840575.jpg';'Day Light';'Panasonic Camera';3
+'P1840576.jpg';'Day Light';'Panasonic Camera';3
+'P1840577.jpg';'Day Light';'Panasonic Camera';2
+'P1840578.jpg';'Day Light';'Panasonic Camera';1
+'P1840579.jpg';'Day Light';'Panasonic Camera';1
+'P1840580.jpg';'Day Light';'Panasonic Camera';1
+'P1840581.jpg';'Day Light';'Panasonic Camera';1
+'P1840582.jpg';'Day Light';'Panasonic Camera';1
+'P1840583.jpg';'Day Light';'Panasonic Camera';1
+'P1840584.jpg';'Day Light';'Panasonic Camera';1
+'P1840585.jpg';'Day Light';'Panasonic Camera';1
+'P1840586.jpg';'Day Light';'Panasonic Camera';1
+'P1840587.jpg';'Day Light';'Panasonic Camera';1
+'P1840588.jpg';'Day Light';'Panasonic Camera';1
+'P1840589.jpg';'Day Light';'Panasonic Camera';1
+'P1840590.jpg';'Day Light';'Panasonic Camera';1
+'P1840591.jpg';'Day Light';'Panasonic Camera';1
+'P1840592.jpg';'Day Light';'Panasonic Camera';1
+'P1840593.jpg';'Day Light';'Panasonic Camera';3
+'P1840594.jpg';'Day Light';'Panasonic Camera';2
+'P1840595.jpg';'Day Light';'Panasonic Camera';2
+'P1840596.jpg';'Day Light';'Panasonic Camera';2
+'P1840597.jpg';'Day Light';'Panasonic Camera';2
+'P1840598.jpg';'Day Light';'Panasonic Camera';2
+'P1840599.jpg';'Day Light';'Panasonic Camera';1
+'P1840600.jpg';'Day Light';'Panasonic Camera';2
+'P1840601.jpg';'Day Light';'Panasonic Camera';1
+'P1840602.jpg';'Day Light';'Panasonic Camera';1
+'P1840604.jpg';'Day Light';'Panasonic Camera';2
+'P1840605.jpg';'Day Light';'Panasonic Camera';1
+'P1840606.jpg';'Day Light';'Panasonic Camera';1
+'P1840607.jpg';'Day Light';'Panasonic Camera';1
+'P1840608.jpg';'Day Light';'Panasonic Camera';1
+'P1860035.jpg';'Day Light';'Panasonic Camera';1
+'P1860036.jpg';'Day Light';'Panasonic Camera';1
+'P1860037.jpg';'Day Light';'Panasonic Camera';1
+'P1860038.jpg';'Day Light';'Panasonic Camera';1
+'P1860039.jpg';'Day Light';'Panasonic Camera';2
+'P1860040.jpg';'Day Light';'Panasonic Camera';1
+'P1860041.jpg';'Day Light';'Panasonic Camera';2
+'P1860042.jpg';'Day Light';'Panasonic Camera';2
+'P1860043.jpg';'Day Light';'Panasonic Camera';1
+'P1860044.jpg';'Day Light';'Panasonic Camera';1
+'P1860045.jpg';'Day Light';'Panasonic Camera';2
+'P1860046.jpg';'Day Light';'Panasonic Camera';5
+'P1860047.jpg';'Day Light';'Panasonic Camera';2
+'P1860048.jpg';'Day Light';'Panasonic Camera';3
+'P1860049.jpg';'Day Light';'Panasonic Camera';4
+'P1860051.jpg';'Day Light';'Panasonic Camera';1
+'P1860052.jpg';'Day Light';'Panasonic Camera';1
+'P1860053.jpg';'Day Light';'Panasonic Camera';1
+'P1860054.jpg';'Day Light';'Panasonic Camera';1
+'P1860055.jpg';'Day Light';'Panasonic Camera';1
+'P1860056.jpg';'Day Light';'Panasonic Camera';1
+'P1860057.jpg';'Day Light';'Panasonic Camera';1
+'P1860058.jpg';'Day Light';'Panasonic Camera';1
+'P1860059.jpg';'Day Light';'Panasonic Camera';3
+'P1860060.jpg';'Day Light';'Panasonic Camera';6
+'P1860061.jpg';'Day Light';'Panasonic Camera';4
+'P1860062.jpg';'Day Light';'Panasonic Camera';4
+'P1860064.jpg';'Day Light';'Panasonic Camera';2
+'P1860065.jpg';'Day Light';'Panasonic Camera';2
+'P1860066.jpg';'Day Light';'Panasonic Camera';2
+'P1860067.jpg';'Day Light';'Panasonic Camera';2
+'P1860068.jpg';'Day Light';'Panasonic Camera';2
+'P1860069.jpg';'Day Light';'Panasonic Camera';2
+'P1860070.jpg';'Day Light';'Panasonic Camera';3
+'P1860071.jpg';'Day Light';'Panasonic Camera';4
+'P1860072.jpg';'Day Light';'Panasonic Camera';2
+'P1860073.jpg';'Day Light';'Panasonic Camera';5
+'P1860074.jpg';'Day Light';'Panasonic Camera';2
+'P1860075.jpg';'Day Light';'Panasonic Camera';1
+'P1860076.jpg';'Day Light';'Panasonic Camera';1
+'P1860077.jpg';'Day Light';'Panasonic Camera';1
+'P1860078.jpg';'Day Light';'Panasonic Camera';5
+'P1860079.jpg';'Day Light';'Panasonic Camera';5
+'P1860080.jpg';'Day Light';'Panasonic Camera';4
+'P1860081.jpg';'Day Light';'Panasonic Camera';1
+'P1860082.jpg';'Day Light';'Panasonic Camera';4
+'P1860083.jpg';'Day Light';'Panasonic Camera';3
+'P1860084.jpg';'Day Light';'Panasonic Camera';2
+'P1860085.jpg';'Day Light';'Panasonic Camera';1
+'P1860086.jpg';'Day Light';'Panasonic Camera';2
+'P1860087.jpg';'Day Light';'Panasonic Camera';2
+'P1860088.jpg';'Day Light';'Panasonic Camera';2
+'P1860089.jpg';'Day Light';'Panasonic Camera';2
+'P1860090.jpg';'Day Light';'Panasonic Camera';3
+'P1860091.jpg';'Day Light';'Panasonic Camera';2
+'P1860092.jpg';'Day Light';'Panasonic Camera';1
+'P1860093.jpg';'Day Light';'Panasonic Camera';2
+'P1860094.jpg';'Day Light';'Panasonic Camera';5
+'P1860095.jpg';'Day Light';'Panasonic Camera';6
+'P1860096.jpg';'Day Light';'Panasonic Camera';5
+'P1860097.jpg';'Day Light';'Panasonic Camera';4
+'P1860098.jpg';'Day Light';'Panasonic Camera';5
+'P1860099.jpg';'Day Light';'Panasonic Camera';2
+'P1860100.jpg';'Day Light';'Panasonic Camera';4
+'P1860101.jpg';'Day Light';'Panasonic Camera';6
+'P1860102.jpg';'Day Light';'Panasonic Camera';1
+'P1860103.jpg';'Day Light';'Panasonic Camera';3
+'P1860104.jpg';'Day Light';'Panasonic Camera';1
+'P1860105.jpg';'Day Light';'Panasonic Camera';2
+'P1860106.jpg';'Day Light';'Panasonic Camera';3
+'P1860107.jpg';'Day Light';'Panasonic Camera';3
+'P1860108.jpg';'Day Light';'Panasonic Camera';2
+'P1860109.jpg';'Day Light';'Panasonic Camera';0
+'P1860110.jpg';'Day Light';'Panasonic Camera';3
+'P1860111.jpg';'Day Light';'Panasonic Camera';2
+'P1860112.jpg';'Day Light';'Panasonic Camera';2
+'P1860113.jpg';'Day Light';'Panasonic Camera';2
+'P1860277.jpg';'Night';'Panasonic Camera';2
+'P1860279.jpg';'Night';'Panasonic Camera';2
+'P1860280.jpg';'Night';'Panasonic Camera';1
+'P1860331.jpg';'Night';'Panasonic Camera';1
+'P1860332.jpg';'Night';'Panasonic Camera';1
+'P1860333.jpg';'Night';'Panasonic Camera';1
+'P1860337.jpg';'Night';'Panasonic Camera';2
+'P1860338.jpg';'Night';'Panasonic Camera';3
+'P1860339.jpg';'Night';'Panasonic Camera';4
+'P1860340.jpg';'Night';'Panasonic Camera';4
+'P1860342.jpg';'Night';'Panasonic Camera';4
+'P1860343.jpg';'Night';'Panasonic Camera';2
+'P1860344.jpg';'Night';'Panasonic Camera';1
+'P1860345.jpg';'Night';'Panasonic Camera';3
+'P1860347.jpg';'Night';'Panasonic Camera';1
+'P1860348.jpg';'Night';'Panasonic Camera';2
+'P1860349.jpg';'Night';'Panasonic Camera';4
+'P1860350.jpg';'Night';'Panasonic Camera';1
+'P1860351.jpg';'Night';'Panasonic Camera';1
+'P1860352.jpg';'Night';'Panasonic Camera';1
+'P1860353.jpg';'Night';'Panasonic Camera';2
+'P1860354.jpg';'Night';'Panasonic Camera';2
+'P1860355.jpg';'Night';'Panasonic Camera';4
+'P1860356.jpg';'Night';'Panasonic Camera';4
+'P1860357.jpg';'Night';'Panasonic Camera';1
+'P1860358.jpg';'Night';'Panasonic Camera';1
+'P1860359.jpg';'Night';'Panasonic Camera';1
+'P1860360.jpg';'Night';'Panasonic Camera';1
+'P1860361.jpg';'Night';'Panasonic Camera';1
+'P1860363.jpg';'Night';'Panasonic Camera';1
+'P1860364.jpg';'Night';'Panasonic Camera';2
+'P1860365.jpg';'Night';'Panasonic Camera';2
+'P1860366.jpg';'Night';'Panasonic Camera';2
+'P1860368.jpg';'Night';'Panasonic Camera';2
+'P1860369.jpg';'Night';'Panasonic Camera';2
+'P1860370.jpg';'Night';'Panasonic Camera';1
+'P1860371.jpg';'Night';'Panasonic Camera';2
+'P1860373.jpg';'Night';'Panasonic Camera';2
+'P1860392.jpg';'Night';'Panasonic Camera';2
+'P1860393.jpg';'Night';'Panasonic Camera';3
+'P1860394.jpg';'Night';'Panasonic Camera';1
+'P1860395.jpg';'Night';'Panasonic Camera';3
+'P1860396.jpg';'Night';'Panasonic Camera';2
+'P1860397.jpg';'Night';'Panasonic Camera';2
+'P1860398.jpg';'Night';'Panasonic Camera';1
+'P1860400.jpg';'Night';'Panasonic Camera';1
+'P1860401.jpg';'Night';'Panasonic Camera';1
+'P1860403.jpg';'Night';'Panasonic Camera';2
+'P1860406.jpg';'Night';'Panasonic Camera';2
+'P1860407.jpg';'Night';'Panasonic Camera';2
+'P1860409.jpg';'Night';'Panasonic Camera';1
+'P1860410.jpg';'Night';'Panasonic Camera';1
+'P1860411.jpg';'Night';'Panasonic Camera';1
+'P1860412.jpg';'Night';'Panasonic Camera';1
+'P1860413.jpg';'Night';'Panasonic Camera';1
+'P1860414.jpg';'Night';'Panasonic Camera';1
+'P1860415.jpg';'Night';'Panasonic Camera';1
+'P1860416.jpg';'Night';'Panasonic Camera';1
+'P1860631.jpg';'Night';'Panasonic Camera';0
+'P1860632.jpg';'Night';'Panasonic Camera';4
+'P1860633.jpg';'Night';'Panasonic Camera';3
+'P1860634.jpg';'Night';'Panasonic Camera';1
+'P1860635.jpg';'Night';'Panasonic Camera';2
+'P1860636.jpg';'Night';'Panasonic Camera';1
+'P1860637.jpg';'Night';'Panasonic Camera';2
+'P1860638.jpg';'Night';'Panasonic Camera';0
+'P1860639.jpg';'Night';'Panasonic Camera';1
+'P1860641.jpg';'Night';'Panasonic Camera';4
+'P1860642.jpg';'Night';'Panasonic Camera';2
+'P1860643.jpg';'Night';'Panasonic Camera';2
+'P1860644.jpg';'Night';'Panasonic Camera';3
+'P1860645.jpg';'Night';'Panasonic Camera';1
+'P1860646.jpg';'Night';'Panasonic Camera';1
+'P1860647.jpg';'Night';'Panasonic Camera';2
+'P1860649.jpg';'Night';'Panasonic Camera';2
+'P1860650.jpg';'Night';'Panasonic Camera';3
+'P1860651.jpg';'Night';'Panasonic Camera';1
+'P1860652.jpg';'Day Light';'Google Street View';4
+'P1860653.jpg';'Day Light';'Google Street View';3
+'P1860654.jpg';'Day Light';'Google Street View';2
+'P1860655.jpg';'Day Light';'Google Street View';2
+'P1860656.jpg';'Day Light';'Google Street View';2
