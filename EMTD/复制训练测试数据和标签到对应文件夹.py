@@ -3,17 +3,17 @@ import os
 import shutil
 
 # ==== 配置路径 ====
-source_image_dir = r'D:\Jiao\dataset\EMTD\Detection'
-source_label_dir = r'D:\Jiao\dataset\EMTD\labels_yolo_66classes'
+source_image_dir = r'F:\jack_dataset\EMTD\Detection'
+source_label_dir = r'F:\jack_dataset\EMTD\labels_yolo_66classes'
 
 train_list_path = 'splits/train_images.csv'
 val_list_path = 'splits/val_images.csv'
 
-train_image_dest = r'D:\Jiao\dataset\EMTD\train'
-val_image_dest = r'D:\Jiao\dataset\EMTD\test'
+train_image_dest = r'F:\jack_dataset\EMTD\train'
+val_image_dest = r'F:\jack_dataset\EMTD\test'
 
-train_label_dest = r'D:\Jiao\dataset\EMTD\labels\train'
-val_label_dest = r'D:\Jiao\dataset\EMTD\labels\test'
+train_label_dest = r'F:\jack_dataset\EMTD\labels\train'
+val_label_dest = r'F:\jack_dataset\EMTD\labels\test'
 
 # ==== 创建目标目录 ====
 for path in [train_image_dest, val_image_dest, train_label_dest, val_label_dest]:
