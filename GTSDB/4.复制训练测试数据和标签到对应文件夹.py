@@ -3,17 +3,17 @@ import os
 import shutil
 
 # ==== 配置路径 ====
-source_image_dir = r'F:\jack_dataset\GTSDB\TrainIJCNN2013'
-source_label_dir = r'F:\jack_dataset\GTSDB\labels'
+source_image_dir = r'D:\Jiao\dataset\GTSDB\TrainIJCNN2013'
+source_label_dir = r'D:\Jiao\dataset\GTSDB\labels'
 
-train_list_path = r'D:\UKMJIAO\AlgorithmCodes\jack_tools\GTSDB\split_lists_7_3\train.txt'
-val_list_path = r'D:\UKMJIAO\AlgorithmCodes\jack_tools\GTSDB\split_lists_7_3\test.txt'
+train_list_path = r'D:\Jiao\Algorithm codes\jack_tools\GTSDB\split_lists_7_3\train.txt'
+val_list_path = r'D:\Jiao\Algorithm codes\jack_tools\GTSDB\split_lists_7_3\test.txt'
 
-train_image_dest = r'F:\jack_dataset\GTSDB\yolo\images\train'
-val_image_dest = r'F:\jack_dataset\GTSDB\yolo\images\test'
+train_image_dest = r'D:\Jiao\dataset\GTSDB\yolo\images\train'
+val_image_dest = r'D:\Jiao\dataset\GTSDB\yolo\images\test'
 
-train_label_dest = r'F:\jack_dataset\GTSDB\yolo\labels\train'
-val_label_dest = r'F:\jack_dataset\GTSDB\yolo\labels\test'
+train_label_dest = r'D:\Jiao\dataset\GTSDB\yolo\labels\train'
+val_label_dest = r'D:\Jiao\dataset\GTSDB\yolo\labels\test'
 
 # 支持的图片扩展名
 image_extensions = ['.ppm', '.jpg', '.png']
