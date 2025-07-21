@@ -2,14 +2,14 @@ import cv2
 import os
 
 # ==== 配置路径 ====
-image_dir = r"F:\jack_dataset\MTSD\Detection"
-label_dir = r"F:\jack_dataset\MTSD\labels_yolo"
-output_dir = r"F:\jack_dataset\MTSD\trainvisualized_Detection"
+image_dir = r"F:\jack_dataset\GTSDB\TrainIJCNN2013"
+label_dir = r"F:\jack_dataset\GTSDB\labels"
+output_dir = r"F:\jack_dataset\GTSDB\trainvisualized_Detection"
 
 os.makedirs(output_dir, exist_ok=True)
 
 # 支持的图片扩展名
-image_extensions = ['.jpg', '.png', '.JPG']
+image_extensions = ['.jpg', '.png', '.JPG', '.ppm', '.bmp', '.jpeg', '.JPEG', '.PNG', '.tif', '.tiff', '.TIFF', '.BMP',]
 
 # 遍历标注文件
 for filename in os.listdir(label_dir):
