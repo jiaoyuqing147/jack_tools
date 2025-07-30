@@ -12,8 +12,8 @@ def collect_class_ids(label_dir):
     return class_ids
 
 # 设置路径
-train_dir = r"F:\jack_dataset\tt100k_2021\yolo\labels\train"
-test_dir = r"F:\jack_dataset\tt100k_2021\yolo\labels\test"
+train_dir = r"D:\tt100k_2021\labels_all\train"
+test_dir = r"D:\tt100k_2021\labels_all\test"
 
 # 获取类别ID集合
 train_classes = collect_class_ids(train_dir)
