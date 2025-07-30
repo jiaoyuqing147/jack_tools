@@ -4,9 +4,9 @@ import json
 from PIL import Image
 
 # === 配置路径 ===
-json_path = r"F:\tt100k_2021\annotations_all.json"
-image_root = r"F:\tt100k_2021\yolo\images"
-label_root = r"F:\tt100k_2021\yolo\labels"
+json_path = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/TT100K/tt100k_2021/annotations_all.json"
+image_root = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/TT100K/tt100k_2021/yolo143/images"
+label_root = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/TT100K/tt100k_2021/yolo143/labels"
 
 # 创建输出根目录
 os.makedirs(label_root, exist_ok=True)

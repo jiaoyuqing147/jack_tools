@@ -2,8 +2,8 @@ import cv2
 import os
 
 # ==== 配置路径 ====
-source_dir = r'D:\Jiao\dataset\GTSDB\yolo\images\test'
-output_dir = r'D:\Jiao\dataset\GTSDB\yolo\images\teset'
+source_dir = r'/home/jiaoyuqing/AlgorithmCodes/datasets/GTSDB/yolo/images/test1'
+output_dir = r'/home/jiaoyuqing/AlgorithmCodes/datasets/GTSDB/yolo/images/test'
 
 os.makedirs(output_dir, exist_ok=True)
 

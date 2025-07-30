@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from collections import defaultdict
 
 # ==== 配置参数 ====
-gt_txt_path = r'F:\jack_dataset\GTSDB\TrainIJCNN2013\gt.txt'
+gt_txt_path = r'/home/jiaoyuqing/AlgorithmCodes/datasets/TrainIJCNN2013/gt.txt'
 output_dir = './split_lists_7_3'
 train_ratio = 0.7
 test_ratio = 0.3

@@ -9,9 +9,9 @@ my_names = ['pl80', 'p6', 'ph4.2', 'pa13', 'im', 'w58', 'pl90', 'il70', 'p5', 'p
 
 
 # === 配置路径 ===
-json_path = r"F:\tt100k_2021\annotations_all.json"
-image_root = r"F:\tt100k_2021\train"
-label_root = r"F:\tt100k_2021\yolo_labels\train"
+json_path = r"/home/jiaoyuqing/TT100K/tt100k_2021/annotations_all.json"#总标注文件
+image_root = r"/home/jiaoyuqing/TT100K/yolo143/images"#数据集的图片文件夹，里面应该有train test
+label_root = r"/home/jiaoyuqing/TT100K/yolo143/labels"#最终生成的文件夹
 
 # 创建输出根目录
 os.makedirs(label_root, exist_ok=True)
