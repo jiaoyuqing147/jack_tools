@@ -14,9 +14,9 @@ my_names = [
 ]
 
 # === 配置路径 ===
-json_path  = r"E:/tt100k_2021/annotations_all.json"    # 标注
-image_root = r"E:/tt100k_2021/yolo110/images"          # 图像根目录（下含 train/test/other）
-label_root = r"E:/tt100k_2021/yolo110/labels"          # YOLO标签输出根目录（将生成 train/test/other）
+json_path  = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\annotations_all.json"    # 标注
+image_root = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolo110\images"          # 图像根目录（下含 train/test/other）
+label_root = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolo110\labels"          # YOLO标签输出根目录（将生成 train/test/other）
 
 os.makedirs(label_root, exist_ok=True)
 

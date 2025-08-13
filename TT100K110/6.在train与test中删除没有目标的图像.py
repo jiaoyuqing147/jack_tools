@@ -2,9 +2,9 @@ import os
 import shutil
 
 # === 设置路径 ===
-image_dir = r"E:\tt100k_2021\yolo110\images\other"
-label_dir = r"E:\tt100k_2021\yolo110\labels\other"
-unused_dir = r"E:\tt100k_2021\yolo110\images\other_unused"
+image_dir = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolo110\images\test"
+label_dir = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolo110\labels\test"
+unused_dir = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolo110\images\test_unused"
 
 # 创建未配对图像存放目录
 os.makedirs(unused_dir, exist_ok=True)

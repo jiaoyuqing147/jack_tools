@@ -7,7 +7,7 @@ from tqdm import tqdm
 # ----------------------------------------
 # 子集列表（支持任意个目录，路径必须成对给出）
 # ✅ 只需改这一行路径即可
-base_dir = r'E:\tt100k_2021\yolo110'
+base_dir = r'D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolo110'
 
 # ✅ 子集设置（无需再每次重复写路径）
 sets = [
@@ -30,7 +30,7 @@ sets = [
 
 
 max_cls_id = 110           # 类别 ID 上限（从0开始）
-delete_bad_files = False    # 是否执行删除，False 表示只检测不删
+delete_bad_files = True    # 是否执行删除，False 表示只检测不删
 # ----------------------------------------
 
 img_suffixes = ('.jpg', '.jpeg', '.png', '.bmp', '.webp')
