@@ -12,9 +12,9 @@ def collect_class_ids(label_dir):
     return class_ids
 
 # 设置路径
-train_dir = r"D:\tt100k_2021\labels_all\train"
-test_dir = r"D:\tt100k_2021\labels_all\test"
-other_dir = r"D:\tt100k_2021\labels_all\other"  # ✅ 新增 other 文件夹
+train_dir = r"E:\tt100k_2021\labels_all\train"
+test_dir = r"E:\tt100k_2021\labels_all\test"
+other_dir = r"E:\tt100k_2021\labels_all\other"  # ✅ 新增 other 文件夹
 
 # 获取类别 ID 集合
 train_classes = collect_class_ids(train_dir)
