@@ -2,9 +2,9 @@ import cv2
 import os
 
 # ==== 配置路径 ====
-image_dir = r"E:\tt100k_2021\yolo110\images\other"
-label_dir = r"E:\tt100k_2021\yolo110\labels\other"
-output_dir = r"E:\tt100k_2021\yolo110\images\trainvisualized_other"
+image_dir = r"F:\jack_dataset\MTSD\yolo54\images\val"
+label_dir = r"F:\jack_dataset\MTSD\yolo54\labels\val"
+output_dir = r"F:\jack_dataset\MTSD\yolo54\images\val_other"
 
 os.makedirs(output_dir, exist_ok=True)
 
