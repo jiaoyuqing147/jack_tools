@@ -3,14 +3,14 @@ import numpy as np
 from iterstrat.ml_stratifiers import MultilabelStratifiedKFold
 
 # ===== 配置 =====
-src_labels_dir = r"D:\Jiao\dataset\MTSD\MTSD\labels_pruned_remapped"   # 只从这里读取每个txt
-dst_root       = r"D:\Jiao\dataset\MTSD\MTSD\yolo54\labels"            # 输出到这里：train/val/test
+src_labels_dir = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/MTSD/MTSD/labels_pruned_remapped"   # 只从这里读取每个txt
+dst_root       = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/MTSD/MTSD/yolo54/labels"            # 输出到这里：train/val/test
 K = 54                              # 重映射后类别数
 train_ratio, val_ratio, test_ratio = 0.70, 0.15, 0.15
 keep_empty = False                   # 空txt是否参与（当负样本）
 ensure_full_coverage = True         # 力求让 val/test 覆盖尽量多的类
 max_trials = 200
-base_seed = 12
+base_seed = 42
 
 # 目标子目录
 train_dir = os.path.join(dst_root, "train")

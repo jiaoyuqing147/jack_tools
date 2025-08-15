@@ -5,7 +5,7 @@ import pandas as pd
 detection_file = 'GT_Detection.txt'
 recognition_file = 'GT_Recognition.txt'
 image_size_file = 'image_sizes.csv'
-labels_output_dir = 'D:\Jiao\dataset\MTSD\MTSD\labels_yolo66'
+labels_output_dir = '/home/jiaoyuqing/bigspace/workspaceJack/datasets/MTSD/MTSD/labels_yolo66'
 
 os.makedirs(labels_output_dir, exist_ok=True)
 

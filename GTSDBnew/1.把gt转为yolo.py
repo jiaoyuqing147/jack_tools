@@ -4,9 +4,9 @@ import os
 # gt_txt_path = r'/home/jiaoyuqing/AlgorithmCodes/datasets/TrainIJCNN2013/gt.txt'  # gt.txt 路径
 # images_dir = r'/home/jiaoyuqing/AlgorithmCodes/datasets/GTSDB'  # 图片所在目录
 # labels_dir = '/home/jiaoyuqing/AlgorithmCodes/datasets/GTSDB/labels'  # 输出的标签txt目录
-gt_txt_path = r'D:\Jiao\dataset\GTSDB\TrainIJCNN2013\gt.txt'  # gt.txt 路径
-images_dir = r'D:\Jiao\dataset\GTSDB\TrainIJCNN2013'  # 图片所在目录
-labels_dir = 'D:\Jiao\dataset\GTSDB\labels'  # 输出的标签txt目录
+gt_txt_path = r'/home/jiaoyuqing/AlgorithmCodes/datasets/TrainIJCNN2013/gt.txt'  # gt.txt 路径
+images_dir = r'/home/jiaoyuqing/AlgorithmCodes/datasets/TrainIJCNN2013'  # 图片所在目录
+labels_dir = r'/home/jiaoyuqing/AlgorithmCodes/datasets/labels'  # 输出的标签txt目录
 
 
 

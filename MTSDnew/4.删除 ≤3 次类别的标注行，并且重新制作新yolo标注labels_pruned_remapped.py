@@ -3,8 +3,8 @@ import pandas as pd
 
 # ======= 配置区 =======
 class_counts_csv = 'class_id_counts.csv'                      # 你统计得到的CSV（1-based Class ID, 列名为 count）
-labels_dir_in    = r'D:\Jiao\dataset\MTSD\MTSD\labels_yolo66'      # 原始 YOLO 标签目录（0-based id, 0..65）
-work_dir         = r'D:\Jiao\dataset\MTSD\MTSD'                    # 输出的上级目录
+labels_dir_in    = r'/home/jiaoyuqing/bigspace/workspaceJack/datasets/MTSD/MTSD/labels_yolo66'      # 原始 YOLO 标签目录（0-based id, 0..65）
+work_dir         = r'/home/jiaoyuqing/bigspace/workspaceJack/datasets/MTSD/MTSD'                    # 输出的上级目录
 names_66_txt     = None  # 可选：66类名称txt（每行一个名字，顺序与Class ID 1..66一致）。没有就保持None
 
 # 输出目录与文件

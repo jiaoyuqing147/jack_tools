@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # ==== 路径配置 ====
-work_dir = r'D:\Jiao\dataset\MTSD\MTSD'
+work_dir = r'/home/jiaoyuqing/bigspace/workspaceJack/datasets/MTSD/MTSD'
 mapping_csv = os.path.join(work_dir, 'class_id_mapping.csv')   # columns: old_id,new_id (0-based)
 classes66_txt = r'classes66.txt'     # 66类全称，每行一个，对应 ClassID=1..66
 out_txt = os.path.join(work_dir, 'yolo54/labels/classes.txt')              # 目标：纯txt，每行一个类别名

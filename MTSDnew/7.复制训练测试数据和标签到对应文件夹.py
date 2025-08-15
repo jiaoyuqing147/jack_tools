@@ -1,67 +1,95 @@
 import os
 import glob
 import shutil
+from typing import Union, Optional
 
 # ===== 路径配置 =====
-labels_root     = r"D:\Jiao\dataset\MTSD\MTSD\yolo54\labels"     # 已经分好 train/val/test 的 labels 目录
-images_src_root = r"D:\Jiao\dataset\MTSD\MTSD\Detection"         # 原始图片根目录（场景图）
-images_dst_root = r"D:\Jiao\dataset\MTSD\MTSD\yolo54\images"     # 目标 images 目录（将创建 train/val/test）
+labels_root = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/MTSD/MTSD/yolo54/labels"
+images_src_root = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/MTSD/MTSD/Detection"
+images_dst_root = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/MTSD/MTSD/yolo54/images"
 
-# 可能的图片扩展名（按顺序尝试）
-valid_exts = [".jpg", ".jpeg", ".png", ".ppm"]
+# 可能的图片扩展名（小写形式，用于匹配）
+valid_exts = [".jpg", ".jpeg", ".png", ".ppm", ".bmp", ".gif"]
 
 splits = ["train", "val", "test"]
 
 # ===== 创建目标目录 =====
-for sp in splits:
-    os.makedirs(os.path.join(images_dst_root, sp), exist_ok=True)
+for split in splits:
+    os.makedirs(os.path.join(images_dst_root, split), exist_ok=True)
 
-def find_image(stem: str) -> str | None:
-    """在 images_src_root 下尝试用多种扩展名找到同名图片，找到就返回完整路径，否则返回 None"""
-    for ext in valid_exts:
-        cand = os.path.join(images_src_root, stem + ext)
-        if os.path.isfile(cand):
-            return cand
-    # 有些数据集文件名可能大小写不一致，保险起见再尝试小写文件名
-    for ext in valid_exts:
-        cand = os.path.join(images_src_root, stem.lower() + ext)
-        if os.path.isfile(cand):
-            return cand
+
+def find_matching_image(txt_stem: str) -> Union[str, None]:
+    """
+    查找与标签文件匹配的图像，忽略大小写
+    将标签文件名转为小写后与图像文件名（小写）匹配
+    """
+    target_stem = txt_stem.lower()  # 标签文件名转为小写作为基准
+
+    # 遍历源目录所有文件，检查是否匹配
+    for filename in os.listdir(images_src_root):
+        file_stem, file_ext = os.path.splitext(filename)
+        # 文件名和扩展名均转为小写后匹配
+        if file_stem.lower() == target_stem and file_ext.lower() in valid_exts:
+            return os.path.join(images_src_root, filename)
+
     return None
 
-def copy_images_for_split(split_name: str):
-    labels_dir = os.path.join(labels_root, split_name)
-    dst_dir    = os.path.join(images_dst_root, split_name)
 
-    label_paths = sorted(glob.glob(os.path.join(labels_dir, "*.txt")))
-    if not label_paths:
-        print(f"⚠️ {labels_dir} 下没有 .txt 标签文件")
+def process_split(split: str):
+    label_dir = os.path.join(labels_root, split)
+    dest_dir = os.path.join(images_dst_root, split)
+
+    # 获取所有标签文件
+    txt_files = glob.glob(os.path.join(label_dir, "*.txt"))
+    if not txt_files:
+        print(f"⚠️ 在 {label_dir} 未找到任何TXT文件")
         return
 
-    copied, missing = 0, 0
-    missing_list = []
+    success = 0
+    missing = 0
+    missing_files = []
 
-    for lp in label_paths:
-        stem = os.path.splitext(os.path.basename(lp))[0]  # 文件名不含扩展名
-        src_img = find_image(stem)
-        if src_img is None:
+    for txt_path in txt_files:
+        # 提取标签文件名（不含路径和扩展名）
+        txt_filename = os.path.basename(txt_path)
+        txt_stem = os.path.splitext(txt_filename)[0]
+
+        # 查找匹配的图片
+        img_path = find_matching_image(txt_stem)
+
+        if img_path:
+            # 构建目标文件名：文件名和后缀名均转为小写
+            src_filename = os.path.basename(img_path)
+            src_stem, src_ext = os.path.splitext(src_filename)
+            dest_filename = f"{src_stem.lower()}{src_ext.lower()}"  # 全小写处理
+            dest_path = os.path.join(dest_dir, dest_filename)
+
+            # 复制文件到目标目录
+            shutil.copy2(img_path, dest_path)
+            success += 1
+        else:
             missing += 1
-            missing_list.append(stem)
-            continue
+            missing_files.append(txt_stem)
 
-        dst_img = os.path.join(dst_dir, os.path.basename(src_img))
-        shutil.copy2(src_img, dst_img)
-        copied += 1
+    # 输出处理结果
+    print(f"✅ [{split}] 成功匹配并复制: {success} 个文件")
+    print(f"❌ [{split}] 未找到对应图片: {missing} 个文件")
 
-    print(f"✅ [{split_name}] 已复制图片: {copied} 张 | 找不到对应图片: {missing} 张")
-    if missing_list:
-        # 只打印前20个，避免刷屏
-        preview = ", ".join(missing_list[:20])
-        more = "" if len(missing_list) <= 20 else f" ...（共{len(missing_list)}个）"
-        print(f"   找不到的示例: {preview}{more}")
+    # 打印部分未找到的文件示例
+    if missing_files:
+        preview = ", ".join(missing_files[:10])
+        more = "..." if len(missing_files) > 10 else ""
+        print(f"  未找到的示例: {preview}{more}")
+    print("-" * 50)
 
-# ===== 执行 =====
-for sp in splits:
-    copy_images_for_split(sp)
 
-print("\n🎉 全部完成：图片已按照 labels 的划分复制到 yolo54/images/train|val|test")
+# ===== 执行主程序 =====
+if __name__ == "__main__":
+    print("开始处理图片匹配与复制...")
+    print(f"图片源目录: {images_src_root}")
+    print(f"目标目录: {images_dst_root}\n")
+
+    for split in splits:
+        process_split(split)
+
+    print("处理完成！所有复制的图像文件均已转为小写文件名和小写后缀名")

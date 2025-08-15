@@ -3,9 +3,9 @@ from pathlib import Path
 from PIL import Image
 
 # ===== 配置 =====
-src_images_dir = r"D:\Jiao\dataset\GTSDB\TrainIJCNN2013"         # 原始图所在目录（ppm 在这里）
-labels_root    = r"D:\Jiao\dataset\GTSDB\yolo43\labels"           # 按你的划分已有：labels/train|val|test
-dst_images_root= r"D:\Jiao\dataset\GTSDB\yolo43\images"           # 目标：images/train|val|test
+src_images_dir = r"/home/jiaoyuqing/AlgorithmCodes/datasets/TrainIJCNN2013"         # 原始图所在目录（ppm 在这里）
+labels_root    = r"/home/jiaoyuqing/AlgorithmCodes/datasets/GTSDB/yolo43/labels"           # 按你的划分已有：labels/train|val|test
+dst_images_root= r"/home/jiaoyuqing/AlgorithmCodes/datasets/GTSDB/yolo43/images"           # 目标：images/train|val|test
 splits = ["train", "val", "test"]
 
 # JPEG 存储质量

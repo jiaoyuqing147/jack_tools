@@ -3,7 +3,7 @@ from collections import Counter
 
 # === 配置路径 ===
 # gt_path = r"/home/jiaoyuqing/AlgorithmCodes/datasets/TrainIJCNN2013/gt.txt"
-gt_path = r"D:\Jiao\dataset\GTSDB\TrainIJCNN2013\gt.txt"
+gt_path = r'/home/jiaoyuqing/AlgorithmCodes/datasets/TrainIJCNN2013/gt.txt'
 
 # 加载 gt.txt
 gt_data = pd.read_csv(gt_path, sep=';', header=None, names=['image', 'x1', 'y1', 'x2', 'y2', 'class_id'])
