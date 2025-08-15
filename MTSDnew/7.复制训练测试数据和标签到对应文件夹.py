@@ -3,9 +3,9 @@ import glob
 import shutil
 
 # ===== 路径配置 =====
-labels_root     = r"F:/jack_dataset/MTSD/yolo54/labels"     # 已经分好 train/val/test 的 labels 目录
-images_src_root = r"F:/jack_dataset/MTSD/Detection"         # 原始图片根目录（场景图）
-images_dst_root = r"F:/jack_dataset/MTSD/yolo54/images"     # 目标 images 目录（将创建 train/val/test）
+labels_root     = r"D:\Jiao\dataset\MTSD\MTSD\yolo54\labels"     # 已经分好 train/val/test 的 labels 目录
+images_src_root = r"D:\Jiao\dataset\MTSD\MTSD\Detection"         # 原始图片根目录（场景图）
+images_dst_root = r"D:\Jiao\dataset\MTSD\MTSD\yolo54\images"     # 目标 images 目录（将创建 train/val/test）
 
 # 可能的图片扩展名（按顺序尝试）
 valid_exts = [".jpg", ".jpeg", ".png", ".ppm"]

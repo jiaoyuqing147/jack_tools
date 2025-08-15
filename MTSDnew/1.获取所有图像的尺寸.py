@@ -2,7 +2,7 @@ from PIL import Image
 import os
 import csv
 
-image_folder = r'F:\jack_dataset\MTSD\Detection'
+image_folder = r'D:\Jiao\dataset\MTSD\MTSD'
 output_csv = 'image_sizes.csv'
 
 with open(output_csv, 'w', newline='') as csvfile:
