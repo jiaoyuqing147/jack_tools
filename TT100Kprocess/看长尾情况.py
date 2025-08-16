@@ -4,7 +4,7 @@ import yaml
 import matplotlib.pyplot as plt
 
 # 替换为你的标签路径
-label_dir = r'G:\Jack_datasets\TT100K\tt100k_2021\yolo\labels\train'
+label_dir = r'D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolo\labels\train'
 
 counter = Counter()
 for file in os.listdir(label_dir):
