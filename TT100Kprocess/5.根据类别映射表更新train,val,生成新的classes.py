@@ -11,10 +11,10 @@ import json
 import pandas as pd
 
 # ========== 路径配置（按需修改） ==========
-train_label_dir = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolojack\labels\train"
-val_label_dir   = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolojack\labels\val"
+train_label_dir = r"E:\Datasets\tt100k_2021\yolojack\labels\train"
+val_label_dir   = r"E:\Datasets\tt100k_2021\yolojack\labels\val"
 stats_csv       = r"class_distribution_AfterDivied.csv"  # 你的三列表统计CSV
-classes_txt_out = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolojack\labels\classes.txt"
+classes_txt_out = r"E:\Datasets\tt100k_2021\yolojack\labels\classes.txt"
 # =======================================
 
 # 原始 232 类 names（index 对应 old_id）

@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 # 你的路径
-train_labels_dir = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolojack\labels\train"
-val_labels_dir   = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolojack\labels\val"
+train_labels_dir = r"E:\Datasets\tt100k_2021\yolojack\labels\train"
+val_labels_dir   = r"E:\Datasets\tt100k_2021\yolojack\labels\val"
 
 K = 232  # 总类别数
 

@@ -4,8 +4,8 @@ import pandas as pd
 
 # ===== 路径配置（按需修改）=====
 stats_csv      = r"class_distribution_AfterDivied.csv"  # 含列: class_id, train_count, val_count
-src_test_dir   = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\labels_all\test"
-dst_test_dir   = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolojack\labels\test"
+src_test_dir   = r"E:\Datasets\tt100k_2021\labels_all\test"
+dst_test_dir   = r"E:\Datasets\tt100k_2021\yolojack\labels\test"
 # =================================
 
 def load_old2new(stats_csv_path):

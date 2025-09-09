@@ -3,11 +3,11 @@ import os
 import glob
 import shutil
 import numpy as np
-from iterstrat.ml_stratifiers import MultilabelStratifiedShuffleSplit
+from iterstrat.ml_stratifiers import MultilabelStratifiedShuffleSplit#pip install iterative-stratification
 
 # ====== 路径与参数（按需改）======
-src_labels_dir = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\labels_all\train"  # 源标签（一堆txt）
-dst_root       = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolojack\labels"   # 目标根目录
+src_labels_dir = r"E:\Datasets\tt100k_2021\labels_all\train"  # 源标签（一堆txt）
+dst_root       = r"E:\Datasets\tt100k_2021\yolojack\labels"   # 目标根目录
 K              = 232     # 类别总数
 val_ratio      = 0.20    # 验证集占比
 random_seed    = 42

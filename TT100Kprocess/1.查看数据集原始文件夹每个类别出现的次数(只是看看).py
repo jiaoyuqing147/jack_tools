@@ -2,7 +2,7 @@ import os
 from collections import Counter
 
 # ========== 修改这里 ==========
-labels_dir = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\labels_all\train"
+labels_dir = r"E:\Datasets\tt100k_2021\labels_all\train"
 K = 232  # 总类别数
 # =================================
 

@@ -2,8 +2,8 @@ import os
 import json
 
 # === 配置路径 ===
-json_path = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\annotations_all.json"  # 标注 JSON 路径
-label_root = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\labels_all"  # 输出标签目录
+json_path = r"E:\Datasets\tt100k_2021\annotations_all.json"  # 标注 JSON 路径
+label_root = r"E:\Datasets\tt100k_2021\labels_all"  # 输出标签目录
 os.makedirs(label_root, exist_ok=True)
 
 # 图像固定尺寸

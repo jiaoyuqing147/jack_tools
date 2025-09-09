@@ -2,8 +2,8 @@ import os
 import pandas as pd
 
 # 路径
-train_label_dir = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolojack\labels\train"
-val_label_dir   = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolojack\labels\val"
+train_label_dir = r"E:\Datasets\tt100k_2021\yolojack\labels\train"
+val_label_dir   = r"E:\Datasets\tt100k_2021\yolojack\labels\val"
 
 # 你原来的 names
 names = [

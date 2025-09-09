@@ -4,9 +4,9 @@ import numpy as np
 import pandas as pd
 
 # ====== 配置路径 ======
-train_labels_dir = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolojack\labels\train"
-val_labels_dir   = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolojack\labels\val"
-test_labels_dir  = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021\yolojack\labels\test"
+train_labels_dir = r"E:\Datasets\tt100k_2021\yolojack\labels\train"
+val_labels_dir   = r"E:\Datasets\tt100k_2021\yolojack\labels\val"
+test_labels_dir  = r"E:\Datasets\tt100k_2021\yolojack\labels\test"
 
 K = 232  # 总类别数
 

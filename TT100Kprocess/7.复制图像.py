@@ -4,14 +4,17 @@ import shutil
 from glob import glob
 
 # ===== 路径配置 =====
-ROOT = r"D:\Jiao\dataset\TsingHua100K\tt100k_2021"
+ROOT = r"E:\Datasets\tt100k_2021"
 
 labels_train_dir = os.path.join(ROOT, "yolojack", "labels", "train")
 labels_val_dir   = os.path.join(ROOT, "yolojack", "labels", "val")
 labels_test_dir  = os.path.join(ROOT, "yolojack", "labels", "test")
 
-images_src_train = os.path.join(ROOT, "yolo", "images", "train")  # 供 train/val 使用
-images_src_test  = os.path.join(ROOT, "yolo", "images", "test")   # 供 test 使用
+# images_src_train = os.path.join(ROOT, "yolo", "images", "train")  # 供 train/val 使用
+# images_src_test  = os.path.join(ROOT, "yolo", "images", "test")   # 供 test 使用
+
+images_src_train = os.path.join(ROOT, "train")  # 供 train/val 使用
+images_src_test  = os.path.join(ROOT, "test")   # 供 test 使用
 
 images_dst_train = os.path.join(ROOT, "yolojack", "images", "train")
 images_dst_val   = os.path.join(ROOT, "yolojack", "images", "val")
