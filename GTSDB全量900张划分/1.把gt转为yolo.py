@@ -1,13 +1,13 @@
 import os
-
+#不要用官网给的Train文件夹，那些图像太少了600张，不如用full文件夹的，900张，其中741张都是有标注的
 # 配置
 # gt_txt_path = r'/home/jiaoyuqing/AlgorithmCodes/datasets/TrainIJCNN2013/gt.txt'  # gt.txt 路径
 # images_dir = r'/home/jiaoyuqing/AlgorithmCodes/datasets/GTSDB'  # 图片所在目录
 # labels_dir = '/home/jiaoyuqing/AlgorithmCodes/datasets/GTSDB/labels'  # 输出的标签txt目录
-gt_txt_path = r'/home/jiaoyuqing/AlgorithmCodes/datasets/TrainIJCNN2013/gt.txt'  # gt.txt 路径
-images_dir = r'/home/jiaoyuqing/AlgorithmCodes/datasets/TrainIJCNN2013'  # 图片所在目录
-labels_dir = r'/home/jiaoyuqing/AlgorithmCodes/datasets/labels'  # 输出的标签txt目录
-
+gt_txt_path = r'E:\DataSets\FullIJCNN2013\gt.txt'  # gt.txt 路径
+images_dir = r'E:\DataSets\FullIJCNN2013'  # 图片所在目录
+labels_dir = r'E:\DataSets\FullIJCNN2013\labels'  # 输出的标签txt目录
+ 
 
 
 IMAGE_WIDTH = 1360  # GTSDB图像固定宽度
