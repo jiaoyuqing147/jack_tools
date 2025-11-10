@@ -2,9 +2,14 @@ import cv2
 import os
 
 # ==== 配置路径 ====
-image_dir = r"E:\DataSets\MTSD\yolo54\images\train"
-label_dir = r"E:\DataSets\MTSD\yolo54\labels\train"
-output_dir = r"E:\DataSets\MTSD\yolo54\images\train_see"
+# image_dir = r"E:\DataSets\MTSD\yolo54\images\train"
+# label_dir = r"E:\DataSets\MTSD\yolo54\labels\train"
+# output_dir = r"E:\DataSets\MTSD\yolo54\images\train_see"
+
+image_dir = r"E:\DataSets\DFG\DFG_YOLO\images\val"
+label_dir = r"E:\DataSets\DFG\DFG_YOLO\labels\val"
+output_dir = r"E:\DataSets\DFG\DFG_YOLO\images\val_see"
+
 
 os.makedirs(output_dir, exist_ok=True)
 
