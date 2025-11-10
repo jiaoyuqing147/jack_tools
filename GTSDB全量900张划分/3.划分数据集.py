@@ -4,9 +4,9 @@ from pathlib import Path
 from iterstrat.ml_stratifiers import MultilabelStratifiedKFold
 #pip install iterative-stratification
 # ===== 配置 =====
-src_labels_dir = r"E:\DataSets\FullIJCNN2013\labels"     # 只从这里读取每个txt
-dst_root       = r"E:\DataSets\GTSDB\yolo43" # 输出到这里：labels/train|val|test
-K = 43                                               # 重映射后类别数（按需改）
+src_labels_dir = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/FullIJCNN2013/FullIJCNN2013/labels"     # 只从这里读取每个txt
+dst_root       = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/GTSDB" # 输出到这里：labels/train|val|test
+K = 43                                                 # 重映射后类别数（按需改）
 train_ratio, val_ratio, test_ratio = 0.70, 0.15, 0.15
 keep_empty = False                # 空txt是否参与（当负样本）
 ensure_full_coverage = True       # 力求让 val/test 覆盖尽量多的类
