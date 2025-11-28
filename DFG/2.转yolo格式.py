@@ -4,7 +4,7 @@ import shutil
 from collections import defaultdict
 
 # ========= 1. 路径根据你自己的情况修改 =========
-BASE_DIR = r"E:\DataSets\DFG"
+BASE_DIR = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/DFG"
 IMG_DIR = os.path.join(BASE_DIR, "JPEGImages")
 ANN_DIR = os.path.join(BASE_DIR, "DFG-tsd-annot-json")
 OUT_DIR = os.path.join(BASE_DIR, "DFG_YOLO")

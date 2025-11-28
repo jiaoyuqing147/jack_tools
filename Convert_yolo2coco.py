@@ -1,6 +1,7 @@
 import os
 import json
 from pathlib import Path
+from typing import Optional
 
 from tqdm import tqdm
 from PIL import Image  # pip install pillow
@@ -8,8 +9,9 @@ from PIL import Image  # pip install pillow
 # ==============================
 # 1. 路径设置：改成你的根目录
 # ==============================
-ROOT = r"E:\DataSets\MTSD\yolo54"  # 这里改成你的 yolo54 根目录
+# ROOT = r"E:\DataSets\MTSD\yolo54"  # 这里改成你的 yolo54 根目录
 
+ROOT = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/TT100K/tt100k_2021/yolojack"  # 这里改成你的 yolo54 根目录
 IMG_ROOT = Path(ROOT) / "images"
 LBL_ROOT = Path(ROOT) / "labels"
 ANNO_ROOT = Path(ROOT) / "annotations"
@@ -33,7 +35,7 @@ categories = [{"id": i, "name": name} for i, name in enumerate(classes)]
 IMG_EXTS = [".jpg", ".jpeg", ".png", ".bmp", ".JPG", ".JPEG", ".PNG", ".BMP"]
 
 
-def find_image(label_path: Path, split: str) -> Path | None:
+def find_image(label_path: Path, split: str) -> Optional[Path]:
     """根据 label 文件名在 images/split 下面找对应图像."""
     stem = label_path.stem  # '0001' from '0001.txt'
     img_dir = IMG_ROOT / split
