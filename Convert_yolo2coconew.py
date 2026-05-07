@@ -8,7 +8,9 @@ from PIL import Image
 # ==============================
 # 1. 根目录
 # ==============================
-ROOT = Path("/home/jiaoyuqing/bigspace/workspaceJack/datasets/GTSDB/yolo43")
+# ROOT = Path("/home/jiaoyuqing/bigspace/workspaceJack/datasets/GTSDB/yolo43")
+ROOT = Path("F:\DataSets\GTSDB\yolo43")
+
 IMG_ROOT = ROOT / "images"
 LBL_ROOT = ROOT / "labels"
 ANNO_ROOT = ROOT / "annotations"

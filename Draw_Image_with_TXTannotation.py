@@ -6,9 +6,9 @@ import os
 # label_dir = r"E:\DataSets\MTSD\yolo54\labels\train"
 # output_dir = r"E:\DataSets\MTSD\yolo54\images\train_see"
 
-image_dir = r"E:\DataSets\DFG\DFG_YOLO\images\val"
-label_dir = r"E:\DataSets\DFG\DFG_YOLO\labels\val"
-output_dir = r"E:\DataSets\DFG\DFG_YOLO\images\val_see"
+image_dir = r"C:\Users\Administrator\Desktop\320\images"
+label_dir = r"C:\Users\Administrator\Desktop\320\labels"
+output_dir = r"C:\Users\Administrator\Desktop\320\images_see"
 
 
 os.makedirs(output_dir, exist_ok=True)

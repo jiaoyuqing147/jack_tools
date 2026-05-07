@@ -11,7 +11,8 @@ from PIL import Image  # pip install pillow
 # ==============================
 # ROOT = r"E:\DataSets\MTSD\yolo54"  # 这里改成你的 yolo54 根目录
 
-ROOT = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/TT100K/tt100k_2021/yolojack"  # 这里改成你的 yolo54 根目录
+# ROOT = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/TT100K/tt100k_2021/yolojack"  # 这里改成你的 yolo54 根目录
+ROOT = r"F:\DataSets\GTSDB\yolo43"  # 这里改成你的 yolo54 根目录
 IMG_ROOT = Path(ROOT) / "images"
 LBL_ROOT = Path(ROOT) / "labels"
 ANNO_ROOT = Path(ROOT) / "annotations"

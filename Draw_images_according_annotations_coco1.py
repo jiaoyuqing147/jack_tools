@@ -82,10 +82,12 @@ def visualize_mtsd():
     # ============================
     # ⭐ 修改成你的 MTSD 路径
     # ============================
-    ann_file = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/MTSD/MTSD/yolo54/annotations/val.json"
-    img_root = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/MTSD/MTSD/yolo54/images"
-    out_dir = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/MTSD/MTSD/yolo54/val_see"
-
+    # ann_file = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/MTSD/MTSD/yolo54/annotations/val.json"
+    # img_root = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/MTSD/MTSD/yolo54/images"
+    # out_dir = r"/home/jiaoyuqing/bigspace/workspaceJack/datasets/MTSD/MTSD/yolo54/val_see"
+    ann_file = r"F:\DataSets\GTSDB\yolo43\annotations\train.json"
+    img_root = r"F:\DataSets\GTSDB\yolo43\images"
+    out_dir = r"F:\DataSets\GTSDB\yolo43\images\train_see"
     # 创建输出文件夹
     os.makedirs(out_dir, exist_ok=True)
 

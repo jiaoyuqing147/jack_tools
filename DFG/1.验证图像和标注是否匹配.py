@@ -1,8 +1,8 @@
 import json, os
 
 # 路径配置
-json_path = r"E:\DataSets\DFG\DFG-tsd-annot-json\train.json"
-img_dir = r"E:\DataSets\DFG\JPEGImages"
+json_path = r"F:\DataSets\DFG\DFG-tsd-annot-json\train.json"
+img_dir = r"F:\DataSets\DFG\JPEGImages"
 
 data = json.load(open(json_path, "r"))
 image_files = {img["id"]: img["file_name"] for img in data["images"]}
