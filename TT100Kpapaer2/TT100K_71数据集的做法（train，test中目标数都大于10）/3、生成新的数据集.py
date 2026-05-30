@@ -3,12 +3,21 @@ import shutil
 from pathlib import Path
 from PIL import Image
 from collections import Counter
+from pathlib import Path
 
-# ==========================
-# 路径配置
-# ==========================
-SRC_ROOT = Path(r"E:\DataSets\tt100k_2021")
-DST_ROOT = Path(r"E:\DataSets\tt100k_2021_paper2\tt100k_71")
+for root in [
+    Path(r"E:\DataSets"),
+    Path(r"D:\DataSets"),
+    Path("/home/jiaoyuqing/datasets"),
+]:
+    if root.exists():
+        DATA_ROOT = root
+        break
+else:
+    raise RuntimeError("Cannot find DATA_ROOT")
+
+SRC_ROOT = DATA_ROOT / "tt100k_2021"
+DST_ROOT = DATA_ROOT / "tt100k_2021_paper2" / "tt100k_71"
 
 ANN_FILE = SRC_ROOT / "annotations_all.json"
 

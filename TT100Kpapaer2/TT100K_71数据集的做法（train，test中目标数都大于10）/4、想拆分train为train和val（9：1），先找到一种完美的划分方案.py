@@ -1,7 +1,21 @@
 from pathlib import Path
 from sklearn.model_selection import train_test_split
 
-ROOT = Path(r"E:\DataSets\tt100k_2021_paper2\tt100k_71")
+from pathlib import Path
+
+# 自动寻找数据集根目录
+for root in [
+    Path(r"E:\DataSets"),               # Windows电脑1
+    Path(r"D:\DataSets"),               # Windows电脑2（如果有）
+    Path("/home/jiaoyuqing/datasets"),  # Linux服务器
+]:
+    if root.exists():
+        DATA_ROOT = root
+        break
+else:
+    raise RuntimeError("Cannot find DATA_ROOT")
+
+ROOT = DATA_ROOT / "tt100k_2021_paper2" / "tt100k_71"
 
 train_img_dir = ROOT / "images" / "train"
 train_lbl_dir = ROOT / "labels" / "train"

@@ -3,10 +3,19 @@ from sklearn.model_selection import train_test_split
 import shutil
 from collections import Counter
 
-# ==========================
-# 配置
-# ==========================
-ROOT = Path(r"E:\DataSets\tt100k_2021_paper2\tt100k_71")
+# 自动寻找数据集根目录
+for root in [
+    Path(r"E:\DataSets"),               # Windows电脑1
+    Path(r"D:\DataSets"),               # Windows电脑2（如果有）
+    Path("/home/jiaoyuqing/datasets"),  # Linux服务器
+]:
+    if root.exists():
+        DATA_ROOT = root
+        break
+else:
+    raise RuntimeError("Cannot find DATA_ROOT")
+
+ROOT = DATA_ROOT / "tt100k_2021_paper2" / "tt100k_71"
 
 SEED = 7 #要用4中得到的种子
 VAL_RATIO = 0.1

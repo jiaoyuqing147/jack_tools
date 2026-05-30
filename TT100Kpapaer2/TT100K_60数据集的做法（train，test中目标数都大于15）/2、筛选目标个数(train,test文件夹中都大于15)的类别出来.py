@@ -1,11 +1,26 @@
 import json
 from pathlib import Path
 from collections import Counter
+from pathlib import Path
 
+DATA_ROOTS = [
+    Path(r"E:\DataSets\tt100k_2021"),
+    Path(r"/home/jiaoyuqing/datasets/tt100k_2021"),
+    Path(r"D:\DataSets"),
+
+]
+
+DATA_ROOT = next(
+    (p for p in DATA_ROOTS if p.exists()),
+    None
+)
+
+if DATA_ROOT is None:
+    raise RuntimeError("Cannot find DATA_ROOT")
 # =====================================================
 # 配置
 # =====================================================
-ROOT = r"E:\DataSets\tt100k_2021"
+ROOT = DATA_ROOT
 
 # 保留条件
 MIN_TRAIN = 15

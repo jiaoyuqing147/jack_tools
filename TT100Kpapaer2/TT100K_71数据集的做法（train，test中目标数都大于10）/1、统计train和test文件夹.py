@@ -2,7 +2,22 @@ import json
 from collections import Counter
 from pathlib import Path
 
-root = r"E:\DataSets\tt100k_2021"
+DATA_ROOTS = [
+    Path(r"E:\DataSets\tt100k_2021"),
+    Path(r"/home/jiaoyuqing/datasets/tt100k_2021"),
+    Path(r"D:\DataSets"),
+
+]
+
+DATA_ROOT = next(
+    (p for p in DATA_ROOTS if p.exists()),
+    None
+)
+
+if DATA_ROOT is None:
+    raise RuntimeError("Cannot find DATA_ROOT")
+
+root = DATA_ROOT
 
 train_dir = Path(root) / "train"
 test_dir = Path(root) / "test"
