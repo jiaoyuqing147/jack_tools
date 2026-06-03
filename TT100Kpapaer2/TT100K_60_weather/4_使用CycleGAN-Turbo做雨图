@@ -1,0 +1,21 @@
+TT100K_60_weather
+│
+├── images
+│   ├── train
+│   │   ├── normal
+│   │   ├── rain
+│   │   ├── fog
+│   │   └── lowlight
+│
+├── labels
+│   ├── train
+
+其中：
+normal.txt
+rain.txt
+fog.txt
+lowlight.txt
+
+/home/jiaoyuqing/AlgorithmCodes/image2image-turbo/batch_rain.py
+
+使用这个代码跑出来，得到雨图

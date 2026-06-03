@@ -1,0 +1,21 @@
+TT100K_60_weather
+│
+├── images
+│   ├── train
+│   │   ├── normal
+│   │   ├── rain
+│   │   ├── fog
+│   │   └── lowlight
+│
+├── labels
+│   ├── train
+
+其中：
+normal.txt
+rain.txt
+fog.txt
+lowlight.txt
+
+根据lowlight.txt中的内容，在img2img-turbo项目中处理，使用
+/home/jiaoyuqing/AlgorithmCodes/image2image-turbo/batch_night.py
+
