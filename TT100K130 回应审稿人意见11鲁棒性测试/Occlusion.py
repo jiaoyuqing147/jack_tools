@@ -70,7 +70,7 @@ SEED = 42
 MIN_OCCLUDED_OBJECTS = 1
 MAX_OCCLUDED_OBJECTS = 3
 
-OCCLUSION_RATIO = 0.4   # 遮挡目标 bbox 的 40%
+OCCLUSION_RATIO = 0.6   # 遮挡目标 bbox 的 40%
 
 MASK_COLOR = (114, 114, 114)   # 灰色遮挡，更自然一些
 

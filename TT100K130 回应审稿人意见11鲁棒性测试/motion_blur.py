@@ -31,14 +31,14 @@ DATA_ROOT = Path(
 INPUT_DIR = (
     DATA_ROOT /
     "images" /
-    "val"
+    "train"
 )
 
 # 输出：运动模糊后的 val 图像目录
 OUTPUT_DIR = (
     DATA_ROOT /
     "images" /
-    "val_motionblur"
+    "train_motionblur"
 )
 
 OUTPUT_DIR.mkdir(
