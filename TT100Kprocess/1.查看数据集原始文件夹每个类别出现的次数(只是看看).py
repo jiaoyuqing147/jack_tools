@@ -21,7 +21,7 @@ for file in os.listdir(labels_dir):
             cls_id = int(float(parts[0]))  # 确保解析正确
             if 0 <= cls_id < K:
                 counter[cls_id] += 1
-
+ 
 print("===== 统计结果 =====")
 print(f"总类别数（固定）：{K}")
 print(f"出现过的类别数：{len([c for c in counter if counter[c] > 0])}")
