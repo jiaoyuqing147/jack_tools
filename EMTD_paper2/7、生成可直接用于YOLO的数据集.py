@@ -10,31 +10,32 @@ import pandas as pd
 # ============================================================
 
 # 原始图片目录
+# 原始图片目录
 SOURCE_IMAGE_DIR = Path(
     r"E:\DataSets\EMTD\Detection"
 )
 
-# 第3步生成的 YOLO 标签目录
+# YOLO 标签目录
 SOURCE_LABEL_DIR = Path(
-    r"E:\UKMJIAO\AlgorithmCodes\jack_tools\EMTD\labels_yolo_66classes"
+    r"E:\UKMJIAO\AlgorithmCodes\jack_tools\EMTD_paper2\labels_yolo_66classes"
 )
 
-# 第6步生成的划分列表目录
+# 划分结果目录
 SPLIT_DIR = Path(
-    r"E:\UKMJIAO\AlgorithmCodes\jack_tools\EMTD\optimized_split_80_20_fast"
+    r"E:\UKMJIAO\AlgorithmCodes\jack_tools\EMTD_paper2\optimized_split_80_20_fast"
 )
 
 TRAIN_LIST_PATH = SPLIT_DIR / "train_images.csv"
 VAL_LIST_PATH = SPLIT_DIR / "test_images.csv"
 
-# 第1步生成的 classes.txt
+# classes.txt 应该也在 EMTD_paper2 目录下
 CLASSES_FILE = Path(
-    r"E:\UKMJIAO\AlgorithmCodes\jack_tools\EMTD\classes.txt"
+    r"E:\UKMJIAO\AlgorithmCodes\jack_tools\EMTD_paper2\classes.txt"
 )
 
 # 最终输出目录
 YOLO_DATASET_DIR = Path(
-    r"E:\DataSets\EMTD\EMTD_YOLO_66"
+    r"E:\DataSets\EMTD\EMTD_YOLO_66_paper2"
 )
 
 TRAIN_IMAGE_DIR = YOLO_DATASET_DIR / "images" / "train"
@@ -211,27 +212,57 @@ def copy_split(
     }
 
     for i, filename in enumerate(filenames, start=1):
-        source_image = image_index.get(filename)
+        # filename 可能已经全部小写
+        source_image = image_index.get(filename.lower())
 
         if source_image is None:
-            statistics["errors"].append(f"缺失图片：{filename}")
+            statistics["errors"].append(
+                f"缺失图片：{filename}"
+            )
             continue
 
-        label_name = f"{Path(filename).stem}.txt"
-        source_label = label_index.get(label_name.lower())
+        # 查找源标签时可以继续忽略大小写
+        source_label_lookup_name = (
+            f"{Path(filename).stem}.txt".lower()
+        )
+
+        source_label = label_index.get(
+            source_label_lookup_name
+        )
 
         if source_label is None:
-            statistics["errors"].append(f"缺失标签：{label_name}")
+            statistics["errors"].append(
+                f"缺失标签：{source_label_lookup_name}"
+            )
             continue
 
-        box_count, label_errors = validate_label(source_label, num_classes)
+        box_count, label_errors = validate_label(
+            source_label,
+            num_classes
+        )
 
         if label_errors:
             statistics["errors"].extend(label_errors)
             continue
 
-        shutil.copy2(source_image, image_dest / source_image.name)
-        shutil.copy2(source_label, label_dest / label_name)
+        # 最终输出时，标签名严格跟随真实图片 stem
+        destination_image_path = (
+            image_dest / source_image.name
+        )
+
+        destination_label_path = (
+            label_dest / f"{source_image.stem}.txt"
+        )
+
+        shutil.copy2(
+            source_image,
+            destination_image_path
+        )
+
+        shutil.copy2(
+            source_label,
+            destination_label_path
+        )
 
         statistics["images"] += 1
         statistics["labels"] += 1
