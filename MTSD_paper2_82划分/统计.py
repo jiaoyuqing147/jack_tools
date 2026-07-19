@@ -1,7 +1,7 @@
 from pathlib import Path
 
 
-DATASET_ROOT = Path(r"E:\DataSets\EMTD_paper2\EMTD_YOLO_66")
+DATASET_ROOT = Path(r"E:\DataSets\MTSD\yolo54_paper2")
 
 IMAGE_SUFFIXES = {
     ".jpg", ".jpeg", ".png", ".bmp", ".webp",
